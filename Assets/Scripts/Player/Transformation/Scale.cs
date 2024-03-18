@@ -48,14 +48,14 @@ public class Scale : MonoBehaviour
         if(Input.GetAxis("Mouse Y") < 0)
         {
             Debug.Log("Smaller???");
-            transform.localScale = Vector3.Lerp(mediumScale, smallScale, interpolationRatio);
+            transform.localScale = Vector3.Lerp(largeScale, smallScale, interpolationRatio);
         }
 
         // Mouse dragging down
         if (Input.GetAxis("Mouse Y") > 0)
         {
             Debug.Log("Bigger?!?!??!");
-            transform.localScale = Vector3.Lerp(mediumScale, largeScale, interpolationRatio);
+            transform.localScale = Vector3.Lerp(smallScale, largeScale, interpolationRatio);
         }
     }
 
