@@ -1,67 +1,74 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class Scale : MonoBehaviour
 {
-    // 3 different sizes the object can be
-    [SerializeField] private float smallValue;
-    [SerializeField] private float mediumValue;
-    [SerializeField] private float largeValue;
+    [SerializeField]
+    public Vector3[] presetSizes;
 
-    private Vector3 smallScale;
-    private Vector3 mediumScale;
-    private Vector3 largeScale;
+    private Vector3 initialSize;
+    private Vector3 mouseStartingPosition;
 
-    private int frameCount = 60; // The amount of frames to interpolate between the different sizes
-    private int framesElapsed = 0;
+    private bool isDragging = false;
 
-    private void Awake()
+    // Start is called before the first frame update
+    void Start()
     {
-        smallValue = .5f;
-        mediumValue = 1.5f;
-        largeValue = 3f;
-
-        // Initializing the sizes for the object
-        smallScale = new Vector3(smallValue, smallValue, smallValue);
-        mediumScale = new Vector3(mediumValue, mediumValue, mediumValue);
-        largeScale = new Vector3(largeValue, largeValue, largeValue);
-
-        transform.localScale = mediumScale; // Sets the object to its medium size before the game starts
+        initialSize = transform.localScale;
     }
 
-    private void OnMouseDown()
+    // Update is called once per frame
+    void Update()
     {
-        
-    }
-
-    private void OnMouseDrag()
-    {
-        int addFrame = 1;
-
-        framesElapsed = (framesElapsed + addFrame) % (frameCount + addFrame); // Resets framesElapsed to 0 after reaching the desired value
-
-        float interpolationRatio = (float)framesElapsed / frameCount; // Casts these variables as floats before dividing to get our ratio
-
-        // Mouse dragging up
-        if(Input.GetAxis("Mouse Y") < 0)
+        // Check if the button is pressed
+        if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Smaller???");
-            transform.localScale = Vector3.Lerp(largeScale, smallScale, interpolationRatio);
+            // Raycast to check if the mouse click hits the object
+            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+            if (hit.collider != null && hit.collider.gameObject == gameObject)
+            {
+                isDragging = true;
+                mouseStartingPosition = Input.mousePosition;
+            }
         }
 
-        // Mouse dragging down
-        if (Input.GetAxis("Mouse Y") > 0)
+        if (isDragging)
         {
-            Debug.Log("Bigger?!?!??!");
-            transform.localScale = Vector3.Lerp(smallScale, largeScale, interpolationRatio);
+            // Calculate the change in the mouse position
+            Vector3 mouseDelta = (Input.mousePosition - mouseStartingPosition);
+            // Calculate the scale factor based on mouse movement
+            float scaleFactor = 1f + (mouseDelta.magnitude * 0.01f);
+            //Apply the new scale
+            transform.localScale = initialSize * scaleFactor;
+        }
+
+        // Check if the button is released
+        if (Input.GetMouseButtonUp(0))
+        {
+            isDragging = false;
+            SnapToClosestSize();
         }
     }
 
-    private void OnMouseUp()
+    private void SnapToClosestSize()
     {
-        
-    }
+        float minDistance = Mathf.Infinity;
+        Vector3 closestSize = Vector3.zero;
 
+        // Loop through the preset sizes
+        foreach (Vector3 size in presetSizes)
+        {
+            // Calculate the distance between the current and the preset sizes
+            float distance = Vector3.Distance(transform.localScale, size);
+            // Check if the distance is smaller than the minimum distance
+            if (distance < minDistance)
+            {
+                minDistance = distance;
+                closestSize = size;
+            }
+        }
+
+        transform.localScale = closestSize;
+    }
 }

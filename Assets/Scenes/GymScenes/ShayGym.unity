@@ -345,12 +345,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1172947036}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36a3d48589e2427418157aff8a3b790b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d0f321770794294282713997ebf47ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  smallValue: 0
-  mediumValue: 0
-  largeValue: 0
+  presetSizes:
+  - {x: 1, y: 1, z: 1}
+  - {x: 2, y: 2, z: 2}
+  - {x: 3, y: 3, z: 3}
 --- !u!1 &1231237069
 GameObject:
   m_ObjectHideFlags: 0
