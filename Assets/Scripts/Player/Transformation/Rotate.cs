@@ -6,11 +6,13 @@ public class Rotate : MonoBehaviour
 {
     [SerializeField]
     public float[] presetRotations;
+    public float rotationSensitivity = 10f;
 
-    private float rotationSensitivity = 10f;
+    [SerializeField]
+    private GameObject rotationPivot; 
 
     private Quaternion initialRotation;
-    private Quaternion currentRotation; // Store the current rotation when dragging
+    private Quaternion currentRotation; 
     private Vector3 mouseStartingPosition;
 
     private bool isDragging = false;
@@ -25,7 +27,6 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Check if the button is pressed
         if (Input.GetMouseButtonDown(0))
         {
             // Raycast to check if the mouse click hits the object
@@ -45,11 +46,14 @@ public class Rotate : MonoBehaviour
             // Calculate the rotation factor based on mouse movement 
             float rotationFactor = mouseDelta.x * rotationSensitivity;
 
-            // Apply the rotation
-            transform.localRotation = currentRotation * Quaternion.Euler(0f, 0f, rotationFactor);
+            // Get the pivot position
+            Vector3 pivotPosition = rotationPivot.transform.position;
+            // Calculate the rotation around the pivot
+            Quaternion rotation = Quaternion.Euler(0f, 0f, rotationFactor) * Quaternion.Inverse(transform.rotation);
+            // Apply the rotation around the pivot
+            transform.RotateAround(pivotPosition, Vector3.forward, rotationFactor);
         }
 
-        // Check if the button is released
         if (Input.GetMouseButtonUp(0))
         {
             isDragging = false;
