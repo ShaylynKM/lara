@@ -761,7 +761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1424152568}
-  snapDistance: 1
+  snapDistance: 2
   isDraggable: 1
 --- !u!1 &955429949
 GameObject:

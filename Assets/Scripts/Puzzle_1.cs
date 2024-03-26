@@ -39,13 +39,13 @@ public class Puzzle_1 : MonoBehaviour
         if (eyeLid.transform.position == eyeTarget.transform.position)
         {
             eyeFlowerTranslate.isDraggable = true;
-            StartCoroutine(StartNewScene());
         }
 
-        //if (eyeFlower.transform.position == flowerTarget.transform.position)
-        //{
-        //    wholeEyeScale.isDraggable = true;
-        //}
+        if (eyeFlower.transform.position == flowerTarget.transform.position)
+        {
+            StartCoroutine(StartNewScene());
+            //wholeEyeScale.isDraggable = true;
+        }
     }
 
     IEnumerator StartNewScene()
