@@ -6,6 +6,7 @@ public class FreeTranslate : MonoBehaviour
 {
     public Transform target;
     public float snapDistance = 1f; // Distance threshold for snapping to the target
+    public bool isDraggable = true;
 
     private bool isDragging = false;
     private Vector3 mouseOffset;
@@ -13,30 +14,33 @@ public class FreeTranslate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isDragging)
+        if (isDraggable)
         {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            transform.position = new Vector3(mousePos.x - mouseOffset.x, mousePos.y - mouseOffset.y, transform.position.z);
-        }
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            if (Vector2.Distance(mousePos, transform.position) < snapDistance)
+            if (isDragging)
             {
-                isDragging = true;
-                mouseOffset = mousePos - transform.position;
+                Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                transform.position = new Vector3(mousePos.x - mouseOffset.x, mousePos.y - mouseOffset.y, transform.position.z);
             }
-        }
 
-        if (Input.GetMouseButtonUp(0) && isDragging)
-        {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            if (Vector2.Distance(mousePos, target.position) < snapDistance)
+            if (Input.GetMouseButtonDown(0))
             {
-                transform.position = target.position;
+                Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                if (Vector2.Distance(mousePos, transform.position) < snapDistance)
+                {
+                    isDragging = true;
+                    mouseOffset = mousePos - transform.position;
+                }
             }
-            isDragging = false;
+
+            if (Input.GetMouseButtonUp(0) && isDragging)
+            {
+                Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                if (Vector2.Distance(mousePos, target.position) < snapDistance)
+                {
+                    transform.position = target.position;
+                }
+                isDragging = false;
+            }
         }
     }
 }
