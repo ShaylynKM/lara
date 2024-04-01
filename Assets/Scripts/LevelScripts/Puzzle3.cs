@@ -7,12 +7,14 @@ public class Puzzle3 : MonoBehaviour
     private VineCutting vine4Cutting;
     private GameObject redLadybug;
     private GameObject orangeLadybug;
+    private GameObject secateurs;
 
     void Start()
     {
         vine4Cutting = GameObject.Find("Vine4").GetComponent<VineCutting>();
         redLadybug = GameObject.Find("Ladybug1");
         orangeLadybug = GameObject.Find("Ladybug2");
+        secateurs = GameObject.Find("Secateurs");
     }
 
     void Update()
@@ -26,6 +28,8 @@ public class Puzzle3 : MonoBehaviour
             orangeLadybug.transform.Translate(Vector3.up * moveAmount);
             
             redLadybug.transform.Translate(Vector3.up * moveAmount);
+
+            Destroy(secateurs); // Destroy the secateurs when the last vine is cut
         }
     }
 }
