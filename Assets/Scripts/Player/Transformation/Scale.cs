@@ -6,48 +6,62 @@ public class Scale : MonoBehaviour
 {
     [SerializeField]
     public Vector3[] presetSizes;
+    public bool isDraggable = true;
+
+    private float mouseSensitivity = 0.05f;
 
     private Vector3 initialSize;
+    private Vector3 currentSize; // Store the current size when dragging
     private Vector3 mouseStartingPosition;
 
     private bool isDragging = false;
+    private bool isFirstScale = true; // Flag to check if it's the first time scaling
 
     // Start is called before the first frame update
     void Start()
     {
         initialSize = transform.localScale;
+        currentSize = initialSize; // Set currentSize to initialSize initially
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Check if the button is pressed
-        if (Input.GetMouseButtonDown(0))
+        if (isDraggable)
         {
-            // Raycast to check if the mouse click hits the object
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            if (hit.collider != null && hit.collider.gameObject == gameObject)
+            // Check if the button is pressed
+            if (Input.GetMouseButtonDown(0))
             {
-                isDragging = true;
-                mouseStartingPosition = Input.mousePosition;
+                // Raycast to check if the mouse click hits the object
+                RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+                if (hit.collider != null && hit.collider.gameObject == gameObject)
+                {
+                    isDragging = true;
+                    mouseStartingPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    if (isFirstScale)
+                    {
+                        currentSize = transform.localScale;
+                        isFirstScale = false;
+                    }
+                }
             }
-        }
 
-        if (isDragging)
-        {
-            // Calculate the change in the mouse position
-            Vector3 mouseDelta = (Input.mousePosition - mouseStartingPosition);
-            // Calculate the scale factor based on mouse movement
-            float scaleFactor = 1f + (mouseDelta.magnitude * 0.01f);
-            //Apply the new scale
-            transform.localScale = initialSize * scaleFactor;
-        }
+            if (isDragging)
+            {
+                // Calculate the change in the mouse position
+                Vector3 mouseDelta = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - mouseStartingPosition);
+                // Calculate the scale factor based on mouse movement 
+                float scaleFactor = 1f + (mouseDelta.magnitude * mouseSensitivity);
+                // Apply the scale
+                transform.localScale = currentSize * scaleFactor;
+            }
 
-        // Check if the button is released
-        if (Input.GetMouseButtonUp(0))
-        {
-            isDragging = false;
-            SnapToClosestSize();
+            // Check if the button is released
+            if (Input.GetMouseButtonUp(0))
+            {
+                isDragging = false;
+                SnapToClosestSize();
+            }
         }
     }
 

@@ -7,7 +7,12 @@ public class AnnaScale : MonoBehaviour
     [SerializeField]
     public Vector3[] presetSizes;
 
+    private float mouseSensitivity = 0.5f;
+    private float minimumScaleClamp = 0.1f;
+    private float maximumScaleClamp = 10f;
+
     private Vector3 initialSize;
+    private Vector3 currentSize; 
     private Vector3 mouseStartingPosition;
 
     private bool isDragging = false;
@@ -16,12 +21,12 @@ public class AnnaScale : MonoBehaviour
     void Start()
     {
         initialSize = transform.localScale;
+        currentSize = initialSize; 
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Check if the button is pressed
         if (Input.GetMouseButtonDown(0))
         {
             // Raycast to check if the mouse click hits the object
@@ -29,27 +34,39 @@ public class AnnaScale : MonoBehaviour
             if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
                 isDragging = true;
-                mouseStartingPosition = Input.mousePosition;
+                mouseStartingPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             }
         }
 
         if (isDragging)
         {
             // Calculate the change in the mouse position
-            Vector3 mouseDelta = (Input.mousePosition - mouseStartingPosition);
-            // Calculate the scale factor based on mouse movement
-            float scaleFactor = 1f + (mouseDelta.magnitude * 0.01f);
-            //Apply the new scale
-            transform.localScale = initialSize * scaleFactor;
+            Vector3 mouseDelta = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - mouseStartingPosition);
+
+            float scaleFactor = 1f;
+
+            // Check the direction of mouse movement to determine scaling behavior
+            if (mouseDelta.x > 0) // Dragging towards the right
+            {
+                scaleFactor += mouseDelta.magnitude * mouseSensitivity;
+            }                
+            else // Dragging towards the left
+            {
+                scaleFactor -= mouseDelta.magnitude * mouseSensitivity;
+            }
+               
+            // Apply the scale
+            transform.localScale = currentSize * Mathf.Clamp(scaleFactor, minimumScaleClamp, maximumScaleClamp);
         }
 
-        // Check if the button is released
         if (Input.GetMouseButtonUp(0))
         {
             isDragging = false;
             SnapToClosestSize();
+            currentSize = transform.localScale; 
         }
     }
+
 
     private void SnapToClosestSize()
     {
@@ -59,7 +76,7 @@ public class AnnaScale : MonoBehaviour
         // Loop through the preset sizes
         foreach (Vector3 size in presetSizes)
         {
-            // Calculate the distance between the current and the preset sizes
+            // Calculate the distance between the current size and the preset sizes
             float distance = Vector3.Distance(transform.localScale, size);
             // Check if the distance is smaller than the minimum distance
             if (distance < minDistance)
