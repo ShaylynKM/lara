@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Puzzle_1.unity
+    path: Assets/Scenes/FlowerEye.unity
     guid: 30814385b60ed4b43b9562265081e44b
   - enabled: 1
-    path: Assets/Scenes/Puzzle_2.unity
+    path: Assets/Scenes/WaterSeed.unity
     guid: 29d892532814acb4db9a0d70900cc4ab
   m_configObjects: {}
