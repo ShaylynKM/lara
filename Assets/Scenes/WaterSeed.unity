@@ -1666,6 +1666,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca7df404fbd55ce409ed6b31657e39a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  closedDirt: {fileID: 21300000, guid: ee513efa194693a46b50123ce1a12329, type: 3}
 --- !u!4 &1828610688
 Transform:
   m_ObjectHideFlags: 0
