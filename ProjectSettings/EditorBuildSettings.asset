@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/CutVines.unity
+    guid: 8c967fe5503bd614b89d46f27c933a2b
+  - enabled: 1
+    path: Assets/Scenes/EyeBalls.unity
+    guid: 9ffbbd2ae532ac94c9d31e02fe2a31fd
+  - enabled: 1
+    path: Assets/Scenes/Stage.unity
+    guid: 17e53eee9ae067443a2bd96d7cd1bcca
+  - enabled: 1
+    path: Assets/Scenes/ClockSpinning.unity
+    guid: 47b3793daa3045b4cbb88b64541cecff
+  - enabled: 1
     path: Assets/Scenes/FlowerEye.unity
     guid: 30814385b60ed4b43b9562265081e44b
   - enabled: 1
