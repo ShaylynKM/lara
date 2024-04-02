@@ -11,6 +11,7 @@ public class ClockSpinning : MonoBehaviour
     private GameObject tools;
     private GameObject rotationPivot;
 
+    private ChangeScenes changeScenes;
     private Rotate toolsRotate;
     private FreeTranslate brushTranslate;
     private FreeTranslate pencilTranslate;
@@ -28,6 +29,8 @@ public class ClockSpinning : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        changeScenes = GameObject.Find("SceneManager").GetComponent<ChangeScenes>();
+
         brush = GameObject.Find("Brush");
         pencil = GameObject.Find("Pencil");
         brushTarget = GameObject.Find("BrushTarget");
@@ -78,5 +81,12 @@ public class ClockSpinning : MonoBehaviour
     void RotateAroundPivot(Transform pointer, Transform pivot, float rotationAmount)
     {
         pointer.RotateAround(pivot.position, Vector3.forward, rotationAmount);
+        StartCoroutine(StartNewScene());
+    }
+
+    IEnumerator StartNewScene()
+    {
+        yield return new WaitForSeconds(5f);
+        changeScenes.LoadNextScene();
     }
 }

@@ -12,6 +12,7 @@ public class StageMaterialsPuzzle : MonoBehaviour
     private GameObject curtainTarget2;
     private GameObject objectsTarget;
 
+    private ChangeScenes changeScenes;
     private Bobbing bobbingGroup2;
     private FadeIn fadeIn;
     private FreeTranslate brushTranslate;
@@ -19,6 +20,8 @@ public class StageMaterialsPuzzle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        changeScenes = GameObject.Find("SceneManager").GetComponent<ChangeScenes>();
+
         brush = GameObject.Find("Brush");
         pencil = GameObject.Find("Pencil");
         curtain1 = GameObject.Find("Curtain1");
@@ -50,5 +53,17 @@ public class StageMaterialsPuzzle : MonoBehaviour
         {
             bobbingGroup2.enabled = false;
         }
+
+        if (brush.transform.position == objectsTarget.transform.position && pencil.transform.position == objectsTarget.transform.position)
+        {
+            StartCoroutine(StartNewScene());
+        }
+            
+    }
+
+    IEnumerator StartNewScene()
+    {
+        yield return new WaitForSeconds(2f);
+        changeScenes.LoadNextScene();
     }
 }

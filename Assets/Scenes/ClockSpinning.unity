@@ -123,6 +123,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &41132099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 41132101}
+  - component: {fileID: 41132100}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &41132100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41132099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 506a0b372e3f2be489385a32b529f0c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &41132101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41132099}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.46747157, y: -0.24645725, z: 0.048682846}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &213462478
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,12 +614,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88942485f0c0ee74dafb9524e998fac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialBrushSpeed: 360
-  maxBrushSpeed: 1080
-  brushAccelerationRate: 50
+  initialBrushSpeed: 720
+  maxBrushSpeed: 1440
+  brushAccelerationRate: 100
   initialPencilSpeed: 30
   maxPencilSpeed: 250
-  pencilAccelerationRate: 30
+  pencilAccelerationRate: 80
 --- !u!4 &552155942
 Transform:
   m_ObjectHideFlags: 0

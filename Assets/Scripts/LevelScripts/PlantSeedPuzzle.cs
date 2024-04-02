@@ -6,6 +6,7 @@ public class PlantSeedPuzzle : MonoBehaviour
 {
     public Sprite closedDirt;
 
+    private ChangeScenes changeScenes;
     private Rotate rotate;
     private GameObject leafWater;
     private GameObject dirt;
@@ -19,6 +20,8 @@ public class PlantSeedPuzzle : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        changeScenes = GameObject.Find("SceneManager").GetComponent<ChangeScenes>();
+
         rotate = GameObject.Find("leafLeaf").GetComponent<Rotate>();
         leafWater = GameObject.Find("leafWater");
         dirt = GameObject.Find("dirt");
@@ -83,8 +86,14 @@ public class PlantSeedPuzzle : MonoBehaviour
         }
 
         babyFlower.transform.position = new Vector3(babyFlower.transform.position.x, thresholdYPositionBabyFlower, babyFlower.transform.position.z);
+
+        StartCoroutine(StartNewScene());
     }
 
-
+    IEnumerator StartNewScene()
+    {
+        yield return new WaitForSeconds(2f);
+        changeScenes.LoadNextScene();
+    }
 
 }
