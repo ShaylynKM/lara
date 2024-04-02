@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackgroundSway : MonoBehaviour
+public class Swaying : MonoBehaviour
 {
     public float swaySpeed = 1f;
     public float swayAmount = 10f;
