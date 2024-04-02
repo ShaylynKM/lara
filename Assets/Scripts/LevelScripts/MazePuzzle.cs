@@ -6,8 +6,7 @@ public class MazePuzzle : MonoBehaviour
 {
     private GameObject redLadybug;
     private GameObject yellowLadybug;
-    private GameObject vine4Cutting;
-    private GameObject cutVine;
+    private VineCutting vineCutting;
     private GameObject secateurs;
 
     [SerializeField]
@@ -17,20 +16,19 @@ public class MazePuzzle : MonoBehaviour
     {
         redLadybug = GameObject.Find("RedLadybug");
         yellowLadybug = GameObject.Find("YellowLadybug");
-        vine4Cutting = GameObject.Find("Vine4Cutting");
-        cutVine = GameObject.Find("CutVine");
         secateurs = GameObject.Find("Secateurs");
-    }
 
-    void Start()
-    {
-        // Hide the cut vine and show the uncut vine
-        cutVine.SetActive(false);
-        vine4Cutting.SetActive(true);
+        vineCutting = GameObject.Find("Vine").GetComponent<VineCutting>();
+        Debug.Log("found the vine");
+
     }
 
     void Update()
     {
-        
+      if(vineCutting.isCut)
+        {
+            Debug.Log("snippy snippy uwu");
+            Destroy(secateurs); // Destroy the secateurs when the vine is cut
+        }
     }
 }
