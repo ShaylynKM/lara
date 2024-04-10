@@ -6,23 +6,34 @@ using UnityEngine.Events;
 
 public class Secateurs : MonoBehaviour
 {
-    public ChangeVine changeVine { get; private set; }
+    public ChangeVine changeVine;
+
+    private Collider2D vineCollider;
+
+    private float zValue = 3f;
+
 
     private void Awake()
     {
         changeVine = (ChangeVine)GameObject.FindObjectOfType(typeof(ChangeVine));
+
+        vineCollider = changeVine.GetComponent<Collider2D>();
     }
 
-    private void OnMouseDrag()
+    private void Update()
     {
-        Snip();
-    }
+        Vector3 mousePos = Input.mousePosition;
+        mousePos = Camera.main.ScreenToWorldPoint(mousePos);
+        mousePos.z = zValue;
+        transform.position = mousePos;
 
-    public void Snip()
-    {
-        if (Input.GetMouseButtonDown(1)) // Click RMB
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.zero);
+
+        if(hit.collider == vineCollider && Input.GetMouseButtonDown(0))
         {
-            changeVine?.CutVine();
+            changeVine.CutVine();
         }
+        
     }
+
 }

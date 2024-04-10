@@ -14,13 +14,14 @@ public class ChangeVine : MonoBehaviour
     [SerializeField]
     private GameObject[] neighbours = new GameObject[2]; // The vines parallel to this vine
 
-    public Secateurs secateurs { get; private set; }
+    public Secateurs secateurs;
   
     private void Awake()
     {
         render = GetComponent<Renderer>();
 
         secateurs = (Secateurs)GameObject.FindObjectOfType(typeof(Secateurs));
+        Debug.Log("foiund");
 
         if(isVisible == true)
         {
@@ -31,14 +32,6 @@ public class ChangeVine : MonoBehaviour
             render.enabled = false;
         }
 
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.tag == "Scissors")
-        {
-            secateurs?.Snip();
-        }
     }
 
     public void CutVine()
