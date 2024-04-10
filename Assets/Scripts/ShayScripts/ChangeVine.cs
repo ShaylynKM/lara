@@ -1,18 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ChangeVine : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private bool isCut;
+
+    private Renderer render;
+
+    public bool IsVisible = true;
+
+    [SerializeField]
+    private GameObject[] neighbours = new GameObject[2]; // The vines parallel to this vine
+
+    private void Awake()
+    {
+        render = GetComponent<Renderer>();
+
+        if(IsVisible == true)
+        {
+            render.enabled = true;
+        }
+        else
+        {
+            render.enabled = false;
+        }
+    }
+
+    private void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.gameObject.CompareTag("Scissors") && !isCut)
+        {
+            CutVine();
+        }
+    }
+
+    private void CutVine()
+    {
+
     }
 }

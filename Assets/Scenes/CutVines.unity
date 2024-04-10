@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &4110525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 2088018346}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &30434838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
@@ -187,6 +192,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
   m_PrefabInstance: {fileID: 1853146368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &73348286 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 808111296}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &137107797
 PrefabInstance:
@@ -353,13 +363,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1049580146}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 1399007634}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (6)
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -375,7 +393,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -412,6 +430,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 169399473}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &169399475 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 169399473}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &203573270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -419,6 +442,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1487518909}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 786362581}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: VineToClear4
@@ -437,7 +468,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -481,6 +512,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 786362581}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (16)
@@ -503,7 +542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -734,6 +773,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 705011122}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: VineToClear6
@@ -752,7 +799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -787,6 +834,11 @@ PrefabInstance:
 --- !u!4 &383809572 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 383809571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &383809573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 383809571}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &401221227
@@ -862,6 +914,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1220457583}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 73348286}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (20)
@@ -880,7 +940,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -915,6 +975,11 @@ PrefabInstance:
 --- !u!4 &402578885 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 402578884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &402578886 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 402578884}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &421654150
@@ -1427,6 +1492,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1435767282}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 383809573}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: VineToClear5
@@ -1445,7 +1518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1475,13 +1548,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5206890758549906178, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
 --- !u!4 &705011121 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 705011120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &705011122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 705011120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &705011123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705011122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe3a73808c6d3b84eb77f8b42c5a0129, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsVisible: 1
+  neighbours: []
 --- !u!1 &710669591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1975,6 +2068,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &749299847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1352844373}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &762572659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2110,6 +2208,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
   m_PrefabInstance: {fileID: 780619724}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &786362581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1323194208}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &806219576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
@@ -2122,6 +2225,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 402578886}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (15)
@@ -2140,7 +2251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2247,6 +2358,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
   m_PrefabInstance: {fileID: 632668594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &896983137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1419868097}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &905542703
 GameObject:
@@ -2416,6 +2532,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &990379868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 203573270}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1001750662
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,6 +2644,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 169399475}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (3)
@@ -2545,7 +2674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2580,6 +2709,11 @@ PrefabInstance:
 --- !u!4 &1049580145 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1049580144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1049580146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1049580144}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1050267769
@@ -2823,6 +2957,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1520779364}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 402578886}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (21)
@@ -2841,7 +2983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2876,6 +3018,11 @@ PrefabInstance:
 --- !u!4 &1220457582 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1220457581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1220457583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1220457581}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1235071294
@@ -3056,13 +3203,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: IsVisible
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 990379868}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 1574846344}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: VineToClear3
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -3078,7 +3237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3188,6 +3347,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1504167679}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 4110525}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (18)
@@ -3206,7 +3373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3300,6 +3467,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe3a73808c6d3b84eb77f8b42c5a0129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IsVisible: 0
+  neighbours: []
 --- !u!1001 &1368772471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3307,13 +3476,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: IsVisible
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1844061795}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 1551695800}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (13)
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -3329,7 +3510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3366,6 +3547,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1368772471}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1368772473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1368772471}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1388713826 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
@@ -3378,9 +3564,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 169399475}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 1795919731}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -3396,7 +3594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3433,6 +3631,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1399007632}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1399007634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1399007632}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1406956097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
@@ -3445,6 +3648,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 4110525}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (24)
@@ -3463,7 +3674,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3507,13 +3718,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: IsVisible
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1848559037}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 705011122}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (5)
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -3529,7 +3752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3559,6 +3782,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5206890758549906178, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: IsVisible
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
 --- !u!4 &1435767281 stripped
@@ -3566,15 +3793,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1435767280}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1435767282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1435767280}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1472493578 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
   m_PrefabInstance: {fileID: 2054281960}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1487518909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1937176026}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1494114628 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
   m_PrefabInstance: {fileID: 854668536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1504167679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1828851696}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1520779362
 PrefabInstance:
@@ -3583,6 +3825,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1220457583}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (26)
@@ -3605,7 +3855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3640,6 +3890,11 @@ PrefabInstance:
 --- !u!4 &1520779363 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1520779362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1520779364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1520779362}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1538304244
@@ -4003,6 +4258,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1368772473}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (14)
@@ -4021,7 +4284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4056,6 +4319,11 @@ PrefabInstance:
 --- !u!4 &1551695799 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1551695798}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1551695800 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1551695798}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1556124846
@@ -4163,6 +4431,11 @@ Transform:
   m_Father: {fileID: 1001750663}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1574846344 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 217317225}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1640763785 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
@@ -4352,6 +4625,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1399007634}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (8)
@@ -4370,7 +4651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4405,6 +4686,11 @@ PrefabInstance:
 --- !u!4 &1795919730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1795919729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1795919731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1795919729}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1807802506
@@ -4480,6 +4766,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1844061795}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: VineToClear1
@@ -4498,7 +4792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4533,6 +4827,11 @@ PrefabInstance:
 --- !u!4 &1820641873 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1820641872}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1820641874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1820641872}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1825671590
@@ -4611,6 +4910,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 749299847}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (17)
@@ -4629,7 +4936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4673,6 +4980,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1820641874}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 1368772473}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: VineToClear2
@@ -4682,8 +4997,12 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.31515002
+      objectReference: {fileID: 0}
+    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.6660475
+      value: 0.6548
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4691,7 +5010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4726,6 +5045,11 @@ PrefabInstance:
 --- !u!4 &1844061794 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1844061793}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1844061795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1844061793}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1844583079
@@ -4809,6 +5133,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 1435767282}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (4)
@@ -4827,7 +5159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4862,6 +5194,11 @@ PrefabInstance:
 --- !u!4 &1848559036 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1848559035}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1848559037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1848559035}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1849415588
@@ -5264,8 +5601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 909685d3c606ff6448fec311ec8cc4d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lineRenderer: {fileID: 0}
-  points: []
 --- !u!1001 &1937176026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5273,6 +5608,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 990379868}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (25)
@@ -5291,7 +5634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5641,6 +5984,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 749299847}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: neighbours.Array.data[1]
+      value: 
+      objectReference: {fileID: 896983137}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
       value: SmallVine (23)
@@ -5659,7 +6010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05896802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalRotation.w

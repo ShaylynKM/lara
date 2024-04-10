@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7531904743516989412}
   - component: {fileID: 7531904743516989410}
   - component: {fileID: 7531904743516989409}
-  - component: {fileID: 7531904743516989408}
   m_Layer: 0
   m_Name: NormalVine
   m_TagString: Vine
@@ -237,17 +236,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &7531904743516989408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7531904743516989413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08a616bb909a668459a152bcb13f9ec0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cutSprite: {fileID: 21300000, guid: c79d935f433477a44b32a703e3cfc674, type: 3}
-  isCut: 0
