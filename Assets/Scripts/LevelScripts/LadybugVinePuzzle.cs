@@ -17,26 +17,26 @@ public class LadybugVinePuzzle : MonoBehaviour
 
         vine4Cutting = GameObject.Find("Vine4").GetComponent<VineCutting>();
         redLadybug = GameObject.Find("Ladybug1");
-        orangeLadybug = GameObject.Find("Ladybug2");
+        //orangeLadybug = GameObject.Find("Ladybug2");
         secateurs = GameObject.Find("Secateurs");
     }
 
     void Update()
     {
-        if (vine4Cutting.isCut)
-        {
-            float speed = 5f; 
-            float moveAmount = speed * Time.deltaTime;
+        //if (vine4Cutting.isCut)
+        //{
+        //    float speed = 5f; 
+        //    float moveAmount = speed * Time.deltaTime;
 
-            orangeLadybug.transform.rotation = Quaternion.Euler(0f, 0f, 270f);
-            orangeLadybug.transform.Translate(Vector3.up * moveAmount);
+        //    orangeLadybug.transform.rotation = Quaternion.Euler(0f, 0f, 270f);
+        //    orangeLadybug.transform.Translate(Vector3.up * moveAmount);
             
-            redLadybug.transform.Translate(Vector3.up * moveAmount);
+        //    redLadybug.transform.Translate(Vector3.up * moveAmount);
 
-            Destroy(secateurs); // Destroy the secateurs when the last vine is cut
+        //    Destroy(secateurs); // Destroy the secateurs when the last vine is cut
 
-            StartCoroutine(StartNewScene());
-        }
+        //    StartCoroutine(StartNewScene());
+        //}
     }
 
     IEnumerator StartNewScene()
