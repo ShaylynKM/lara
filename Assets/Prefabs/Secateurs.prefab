@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 250566031304227383}
   - component: {fileID: 250566031304227382}
-  - component: {fileID: 250566031304227380}
+  - component: {fileID: 7197014560527017692}
   m_Layer: 0
   m_Name: Secateurs
   m_TagString: Scissors
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &250566031304227380
+--- !u!114 &7197014560527017692
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,9 +94,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 250566031304227377}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e249aa68d9f1ba243b70163beb8a42af, type: 3}
+  m_Script: {fileID: 11500000, guid: a94ee3abc5c57934cae543b5f17778c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  snapDistance: 1
-  isDraggable: 1

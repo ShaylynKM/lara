@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class VineCutting : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class VineCutting : MonoBehaviour
     private Sprite originalSprite;
     public bool isCut = false;
     private SpriteRenderer spriteRenderer;
+
+    public UnityEvent SecateursSnipped;
 
     private void Start()
     {

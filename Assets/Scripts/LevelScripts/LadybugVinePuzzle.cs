@@ -15,7 +15,7 @@ public class LadybugVinePuzzle : MonoBehaviour
     {
         changeScenes = GameObject.Find("SceneManager").GetComponent<ChangeScenes>();
 
-        vine4Cutting = GameObject.Find("Vine4").GetComponent<VineCutting>();
+        //vine4Cutting = GameObject.Find("Vine4").GetComponent<VineCutting>();
         redLadybug = GameObject.Find("Ladybug1");
         //orangeLadybug = GameObject.Find("Ladybug2");
         secateurs = GameObject.Find("Secateurs");

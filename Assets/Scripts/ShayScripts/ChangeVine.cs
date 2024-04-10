@@ -2,23 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ChangeVine : MonoBehaviour
 {
-    private bool isCut;
-
     private Renderer render;
 
-    public bool IsVisible = true;
+    [SerializeField]
+    private bool isVisible = true;
 
     [SerializeField]
     private GameObject[] neighbours = new GameObject[2]; // The vines parallel to this vine
 
+    public Secateurs secateurs { get; private set; }
+  
     private void Awake()
     {
         render = GetComponent<Renderer>();
 
-        if(IsVisible == true)
+        secateurs = (Secateurs)GameObject.FindObjectOfType(typeof(Secateurs));
+
+        if(isVisible == true)
         {
             render.enabled = true;
         }
@@ -26,23 +30,22 @@ public class ChangeVine : MonoBehaviour
         {
             render.enabled = false;
         }
-    }
 
-    private void Update()
-    {
-        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Scissors") && !isCut)
+        if(collision.gameObject.tag == "Scissors")
         {
-            CutVine();
+            secateurs?.Snip();
         }
     }
 
-    private void CutVine()
+    public void CutVine()
     {
-
+        if(isVisible == true)
+        {
+            Debug.Log("cutwooooo");
+        }
     }
 }
