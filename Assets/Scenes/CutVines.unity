@@ -3546,6 +3546,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 38228982}
     m_Modifications:
     - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: isVisible
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: neighbours.Array.size
       value: 1
       objectReference: {fileID: 0}

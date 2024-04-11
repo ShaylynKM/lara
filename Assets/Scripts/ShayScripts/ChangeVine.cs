@@ -38,11 +38,6 @@ public class ChangeVine : MonoBehaviour
 
      }
 
-    private void Start()
-    {
-        
-    }
-
     public void CutVine()
     {
         if(hasBeenCut == false)
@@ -62,8 +57,19 @@ public class ChangeVine : MonoBehaviour
     {
         foreach(GameObject neighbour in neighbours)
         {
-            isVisible = !isVisible;
-            Debug.Log("Toggled");
+            SpriteRenderer neighbourRenderer;
+            neighbourRenderer = neighbour.GetComponent<SpriteRenderer>();
+
+            // If the parallel vines are cut, reverse the cut. If they're uncut, cut them.
+
+            if(neighbourRenderer.enabled == true)
+            {
+                neighbourRenderer.enabled = false;
+            }
+            else if(neighbourRenderer.enabled == false)
+            {
+                neighbourRenderer.enabled = true;
+            }
         }
     }
 }
