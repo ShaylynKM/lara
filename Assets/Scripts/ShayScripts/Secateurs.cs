@@ -6,35 +6,41 @@ using UnityEngine.Events;
 
 public class Secateurs : MonoBehaviour
 {
-    public ChangeVine changeVine;
+	public ChangeVine changeVine;
 
-    private Collider2D vineCollider;
+	private Collider2D vineCollider;
 
-    private float zValue = 0f;
-
-
-    private void Awake()
-    {
-        changeVine = (ChangeVine)GameObject.FindObjectOfType(typeof(ChangeVine));
+	private float zValue = 0f;
 
 
-        vineCollider = changeVine.GetComponent<Collider2D>();
-    }
+	private void Awake()
+	{
+		changeVine = (ChangeVine)GameObject.FindObjectOfType(typeof(ChangeVine));
 
-    private void Update()
-    {
-        Vector3 mousePos = Input.mousePosition;
-        mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-        mousePos.z = zValue;
-        transform.position = mousePos;
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.zero);
+		vineCollider = changeVine.GetComponent<Collider2D>();
+	}
 
-        if(hit.collider == vineCollider && Input.GetMouseButtonDown(0))
-        {
-            changeVine.CutVine();
-        }
-        
-    }
+	private void Update()
+	{
+		Vector3 mousePos = Input.mousePosition;
+		mousePos = Camera.main.ScreenToWorldPoint(mousePos);
+		mousePos.z = zValue;
+		transform.position = mousePos;
+		
+		RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.zero);
+
+		if(Input.GetMouseButtonDown(0))
+		{
+			if(hit.collider.GetComponent<ChangeVine>())
+			{
+				var changeVine = hit.collider.GetComponent<ChangeVine>();
+		 		changeVine?.CutVine();
+			}
+
+			//changeVine.CutVine();
+		}
+		
+	}
 
 }
