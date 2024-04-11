@@ -9,11 +9,15 @@ public class LadybugPath : MonoBehaviour
     [SerializeField]
     private Transform[] wayPoints;
 
-    private float bugSpeed = 2f;
+    private float bugSpeed = 5f;
 
-    private int pointIndex;
+    private int pointIndex = 0;
 
     public UnityEvent BugMeeting;
+
+    [SerializeField]
+    private Transform lastWaypoint;
+
 
     private void Awake()
     {
@@ -22,28 +26,36 @@ public class LadybugPath : MonoBehaviour
 
     private void Update()
     {
-        MoveBug();
+        //MoveBug();
+
+        if (transform.position == lastWaypoint.transform.position)
+        {
+            StartCoroutine(WaitToChangeScene());
+        }
     }
 
     public void MoveBug()
     {
+
         // Moves the ladybug to the next point on the path
-        if (pointIndex <= wayPoints.Length - 1)
+        if (pointIndex < wayPoints.Length)
         {
             transform.position = Vector2.MoveTowards(transform.position, wayPoints[pointIndex].transform.position, bugSpeed * Time.deltaTime);
 
-            // If we are at the last point, invoke the event
+            // Point index is increased when the ladybug reaches a point
             if(transform.position == wayPoints[pointIndex].transform.position)
             {
-                StartCoroutine(WaitToChangeScene()); // Wait 4 seconds before changing scenes
-                BugMeeting.Invoke(); // Meant to call the scene changer script
+                pointIndex ++;
             }
         }
+
     }
 
     IEnumerator WaitToChangeScene()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(2);
+
+        BugMeeting.Invoke(); // Meant to call the scene changer script
     }
 
 }
