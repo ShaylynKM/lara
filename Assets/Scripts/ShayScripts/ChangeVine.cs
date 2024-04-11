@@ -49,11 +49,13 @@ public class ChangeVine : MonoBehaviour
             {
                 neighbourRenderer.enabled = false;
                 changedByNeighbour = true;
+                IsChangedByNeighbour();
             }
             else if (neighbourRenderer.enabled == false)
             {
                 neighbourRenderer.enabled = true;
                 changedByNeighbour = true;
+                IsChangedByNeighbour();
             }
         }
     }
@@ -76,7 +78,7 @@ public class ChangeVine : MonoBehaviour
 
     // Trying to flag when a vine is changed by a neighbour vine vs cut by the players
 
-    public void IsChangedByNeighbour(ref bool changedByNeighbour)
+    public void IsChangedByNeighbour()
     {
         if(changedByNeighbour == true && isVisible == false)
         {
