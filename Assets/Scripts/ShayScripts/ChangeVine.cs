@@ -7,7 +7,7 @@ using UnityEngine.Events;
 
 public class ChangeVine : MonoBehaviour
 {
-    private Renderer render;
+    private SpriteRenderer render;
 
     [SerializeField]
     private bool isVisible = true;
@@ -21,13 +21,14 @@ public class ChangeVine : MonoBehaviour
   
      void Awake()
      {
-        render = GetComponent<Renderer>();
+        render = GetComponent<SpriteRenderer>();
 
         secateurs = (Secateurs)GameObject.FindObjectOfType(typeof(Secateurs));
 
         if(isVisible == true)
         {
             render.enabled = true;
+            isVisible = false;
             hasBeenCut = false;
         }
         else
@@ -50,6 +51,11 @@ public class ChangeVine : MonoBehaviour
         {
             return;
         }
+
+    }
+
+    public void ReverseCut()
+    {
 
     }
 

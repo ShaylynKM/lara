@@ -9,7 +9,7 @@ public class LadybugPath : MonoBehaviour
     [SerializeField]
     private Transform[] wayPoints;
 
-    private float bugSpeed = 5f;
+    private float bugSpeed = 2f;
 
     private int pointIndex;
 
@@ -22,7 +22,7 @@ public class LadybugPath : MonoBehaviour
 
     private void Update()
     {
-
+        MoveBug();
     }
 
     public void MoveBug()

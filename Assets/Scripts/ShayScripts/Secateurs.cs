@@ -10,12 +10,13 @@ public class Secateurs : MonoBehaviour
 
     private Collider2D vineCollider;
 
-    private float zValue = 3f;
+    private float zValue = 0f;
 
 
     private void Awake()
     {
         changeVine = (ChangeVine)GameObject.FindObjectOfType(typeof(ChangeVine));
+
 
         vineCollider = changeVine.GetComponent<Collider2D>();
     }
