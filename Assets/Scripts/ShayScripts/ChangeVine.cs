@@ -74,6 +74,8 @@ public class ChangeVine : MonoBehaviour
 
     }
 
+    // Trying to flag when a vine is changed by a neighbour vine vs cut by the players
+
     public void IsChangedByNeighbour(ref bool changedByNeighbour)
     {
         if(changedByNeighbour == true && isVisible == false)
