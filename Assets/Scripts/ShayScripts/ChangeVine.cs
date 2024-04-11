@@ -25,27 +25,25 @@ public class ChangeVine : MonoBehaviour
 
         secateurs = (Secateurs)GameObject.FindObjectOfType(typeof(Secateurs));
 
-        if(isVisible == true)
+        if(render.enabled == true)
         {
-            render.enabled = true;
-            isVisible = false;
-            hasBeenCut = false;
+            isVisible = true;
         }
         else
         {
-            render.enabled = false;
-            hasBeenCut = true;
+            isVisible = false;
         }
 
      }
 
     public void CutVine()
     {
-        if(hasBeenCut == false)
+        if(isVisible == true)
         {
             render.enabled = false; // Hide the vine when it is cut
-            hasBeenCut = true;
             ChangeNeighbours();
+
+            isVisible = false;
         }
         else
         {
@@ -54,10 +52,6 @@ public class ChangeVine : MonoBehaviour
 
     }
 
-    public void ReverseCut()
-    {
-
-    }
 
     public void ChangeNeighbours()
     {
