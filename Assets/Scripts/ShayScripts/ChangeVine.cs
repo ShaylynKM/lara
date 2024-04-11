@@ -12,7 +12,7 @@ public class ChangeVine : MonoBehaviour
     [SerializeField]
     private bool isVisible = true;
 
-    private bool hasBeenCut;
+    private bool changedByNeighbour;
 
     [SerializeField]
     private GameObject[] neighbours = new GameObject[2]; // The vines parallel to this vine
@@ -36,9 +36,31 @@ public class ChangeVine : MonoBehaviour
 
      }
 
+    public void ChangeNeighbours()
+    {
+        foreach (GameObject neighbour in neighbours)
+        {
+            SpriteRenderer neighbourRenderer;
+            neighbourRenderer = neighbour.GetComponent<SpriteRenderer>();
+
+            // If the parallel vines are cut, reverse the cut. If they're uncut, cut them.
+
+            if (neighbourRenderer.enabled == true)
+            {
+                neighbourRenderer.enabled = false;
+                changedByNeighbour = true;
+            }
+            else if (neighbourRenderer.enabled == false)
+            {
+                neighbourRenderer.enabled = true;
+                changedByNeighbour = true;
+            }
+        }
+    }
+
     public void CutVine()
     {
-        if(isVisible == true)
+        if(isVisible == true && changedByNeighbour == false)
         {
             render.enabled = false; // Hide the vine when it is cut
             ChangeNeighbours();
@@ -52,24 +74,20 @@ public class ChangeVine : MonoBehaviour
 
     }
 
-
-    public void ChangeNeighbours()
+    public void IsChangedByNeighbour(ref bool changedByNeighbour)
     {
-        foreach(GameObject neighbour in neighbours)
+        if(changedByNeighbour == true && isVisible == false)
         {
-            SpriteRenderer neighbourRenderer;
-            neighbourRenderer = neighbour.GetComponent<SpriteRenderer>();
+            render.enabled = true;
 
-            // If the parallel vines are cut, reverse the cut. If they're uncut, cut them.
+            Debug.Log("Changed by neighbour: visible");
+        }
+        if (changedByNeighbour == true && isVisible == true)
+        {
+            render.enabled = false;
+            Debug.Log("Changed by neighbour: visible");
 
-            if(neighbourRenderer.enabled == true)
-            {
-                neighbourRenderer.enabled = false;
-            }
-            else if(neighbourRenderer.enabled == false)
-            {
-                neighbourRenderer.enabled = true;
-            }
         }
     }
+
 }
