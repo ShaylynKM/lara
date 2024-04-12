@@ -25,7 +25,7 @@ public class ChangeVine : MonoBehaviour
 
         secateurs = (Secateurs)GameObject.FindObjectOfType(typeof(Secateurs));
 
-        if(render.enabled == true)
+        if (render.enabled == true)
         {
             isVisible = true;
         }
@@ -34,44 +34,50 @@ public class ChangeVine : MonoBehaviour
             isVisible = false;
         }
 
-     }
+    }
 
     public void ChangeNeighbours()
     {
         foreach (GameObject neighbour in neighbours)
-        {
+        {            
             SpriteRenderer neighbourRenderer;
             neighbourRenderer = neighbour.GetComponent<SpriteRenderer>();
 
             // If the parallel vines are cut, reverse the cut. If they're uncut, cut them.
 
             if (neighbourRenderer.enabled == true)
-            {
-                neighbourRenderer.enabled = false;
+            {               
+                neighbourRenderer.enabled = false;                
                 changedByNeighbour = true;
                 IsChangedByNeighbour();
             }
             else if (neighbourRenderer.enabled == false)
-            {
-                neighbourRenderer.enabled = true;
-                changedByNeighbour = true;
+            {                
+                neighbourRenderer.enabled = true;                
+                changedByNeighbour = true;  /// check this variable, seems odd
                 IsChangedByNeighbour();
             }
         }
     }
 
+
+    // For cutting vines, then calling the function that changes the neighbour vines
     public void CutVine()
     {
-        if(isVisible == true && changedByNeighbour == false)
+        if (render.enabled == true)
         {
-            render.enabled = false; // Hide the vine when it is cut
-            ChangeNeighbours();
-
-            isVisible = false;
-        }
-        else
-        {
-            return;
+            if (isVisible == true) // && changedByNeighbour == false)               
+            {
+                render.enabled = false; // Hide the vine when it is cut
+                ChangeNeighbours();
+                isVisible = false;
+            }
+            else if (isVisible == false) // && changedByNeighbour == true)
+            {
+                render.enabled = true;
+                ChangeNeighbours();
+                isVisible = true;
+            }
         }
 
     }
@@ -80,15 +86,14 @@ public class ChangeVine : MonoBehaviour
 
     public void IsChangedByNeighbour()
     {
-        if(changedByNeighbour == true && isVisible == false)
+        if (changedByNeighbour == true && isVisible == false)       
         {
-            render.enabled = true;
-
+            render.enabled = true;            
             Debug.Log("Changed by neighbour: visible");
         }
-        if (changedByNeighbour == true && isVisible == true)
+        else if (changedByNeighbour == true && isVisible == true)        
         {
-            render.enabled = false;
+            render.enabled = false;            
             Debug.Log("Changed by neighbour: visible");
 
         }
