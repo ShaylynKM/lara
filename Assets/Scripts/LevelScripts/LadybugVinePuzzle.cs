@@ -25,7 +25,7 @@ public class LadybugVinePuzzle : MonoBehaviour
         // If all of the vines in the path of the ladybug are cut, invoke an event which calls the function from LadybugPath that moves the ladybug and ends the puzzle.
         foreach (SpriteRenderer vineToCut in vinesToCut)
         {
-            bool allVinesClear = true; // Variable to keep track of if all the vines in the path have their SpriteRenderers disabled
+            bool allVinesClear = false; // Variable to keep track of if all the vines in the path have their SpriteRenderers disabled
 
             if(vinesToCutRenderer?.enabled == true)
             {
