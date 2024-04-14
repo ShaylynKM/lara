@@ -26,8 +26,6 @@ public class LadybugPath : MonoBehaviour
 
     private void Update()
     {
-        //MoveBug();
-
         if (transform.position == lastWaypoint.transform.position)
         {
             StartCoroutine(WaitToChangeScene());

@@ -17,6 +17,7 @@ public class SecateursCollider : MonoBehaviour
     
     void Update()
     {
+        // If the raycast hits the collider for a vine you can cut, cut the vine.
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.zero);
 
         if (Input.GetMouseButtonDown(0))

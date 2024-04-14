@@ -1113,6 +1113,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 383809571}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &383809576 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 383809571}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &401221227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1876,6 +1881,11 @@ MonoBehaviour:
   isVisible: 1
   neighbours: []
   secateurs: {fileID: 0}
+--- !u!212 &705011126 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 705011120}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &719621968
 GameObject:
   m_ObjectHideFlags: 0
@@ -2634,6 +2644,11 @@ Transform:
 --- !u!1 &990379868 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 203573270}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &990379871 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 203573270}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1001750662
@@ -3576,6 +3591,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1323194208}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1323194212 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1323194208}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1327813953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3768,6 +3788,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b3610ecbcb7915419b5e808a070f830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pathClear:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1538304250}
+        m_TargetAssemblyTypeName: LadybugPath, Assembly-CSharp
+        m_MethodName: MoveBug
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  vinesToCut:
+  - {fileID: 1820641877}
+  - {fileID: 1844061798}
+  - {fileID: 1323194212}
+  - {fileID: 990379871}
+  - {fileID: 705011126}
+  - {fileID: 383809576}
 --- !u!1001 &1368772471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5573,6 +5615,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1820641872}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1820641877 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1820641872}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1825671590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5809,6 +5856,11 @@ Transform:
 --- !u!1 &1844061795 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+  m_PrefabInstance: {fileID: 1844061793}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1844061798 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1844061793}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1844583079

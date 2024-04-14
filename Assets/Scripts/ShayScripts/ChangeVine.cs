@@ -54,7 +54,7 @@ public class ChangeVine : MonoBehaviour
             else if (neighbourRenderer.enabled == false)
             {                
                 neighbourRenderer.enabled = true;                
-                changedByNeighbour = true;  /// check this variable, seems odd
+                changedByNeighbour = true;  /// check this variable; seems odd
                 IsChangedByNeighbour();
             }
         }
