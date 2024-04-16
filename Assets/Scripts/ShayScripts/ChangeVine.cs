@@ -42,14 +42,18 @@ public class ChangeVine : MonoBehaviour
 
     }
 
-    public void ChangeNeighbours()
+
+    /// <summary>
+    /// A function called when a vine needs to be changed. Either the vine is cut by its neighbour, or the player themselves, taking a bool param that specifies which case it is.  
+    /// </summary>
+    /// <param name="isCutByNeighbour"> False if the player directly cuts the vine, true if not. </param>
+    public void CutVine(bool isCutByNeighbour)
     {
         foreach (GameObject neighbour in neighbours)
         {
             SpriteRenderer neighbourRenderer;
             neighbourRenderer = neighbour.GetComponent<SpriteRenderer>();
 
-            // If the parallel vines are cut, reverse the cut. If they're uncut, cut them.
 
             if (neighbourRenderer.enabled == true)
             {
@@ -64,33 +68,36 @@ public class ChangeVine : MonoBehaviour
                 IsChangedByNeighbour();
             }
         }
-    }
 
-
-    // For cutting vines, then calling the function that changes the neighbour vines
-    public void CutVine()
-    {
-        if (render.enabled == true)
+        //Case 2
+        else if ((isVisible == true) && (render.enabled == true) && (isCutByNeighbour == false)) 
         {
-            if (isVisible == true) // && changedByNeighbour == false)               
+            this.ReverseVine(); 
+            foreach (GameObject vine in neighbours)
             {
-                render.enabled = false; // Hide the vine when it is cut
-                ChangeNeighbours();
-                isVisible = false;
+                //Get the neighbouring vine instance and cut it, specifying that it needs to cut no other vines nearby 
+                (vine.GetComponent<ChangeVine>()).CutVine(true);
             }
-            else if (isVisible == false) // && changedByNeighbour == true)
-            {
-                render.enabled = true;
-                ChangeNeighbours();
-                isVisible = true;
-            }
+
+        }
+
+        //Case 3
+        else if (isCutByNeighbour == true)
+        {
+            this.ReverseVine();
+        }
+
+        else
+        { //player attempts to cut vine, need to cut if possible, and if so, also cut neighbours 
+            Debug.Log("Error! render.enabled != isVisible, or CutVines is being called in an unexpected way");
         }
 
     }
 
-    // Trying to flag when a vine is changed by a neighbour vine vs cut by the players
-
-    public void IsChangedByNeighbour()
+/// <summary>
+/// Takes whatever the current state of the calling vine instance is and reverses it. 
+/// </summary>
+    private void ReverseVine()
     {
         if (changedByNeighbour == true && isVisible == false)
         {
@@ -102,7 +109,21 @@ public class ChangeVine : MonoBehaviour
             render.enabled = false;
             Debug.Log("Changed by neighbour: visible");
 
+        else
+        {
+            Debug.Log("Error! Render status and isVisible do not match");
         }
+    }
+
+
+    public void SetID(int id)
+    {
+        this.id = id; 
+    }
+    
+    public int GetID()
+    {
+        return id;
     }
 
 }
