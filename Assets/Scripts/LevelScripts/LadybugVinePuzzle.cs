@@ -17,27 +17,39 @@ public class LadybugVinePuzzle : MonoBehaviour
 
     [SerializeField]
     private SpriteRenderer[] vinesToCut;
+    [SerializeField]
+    private ChangeVine[] vinesCut;
 
     private SpriteRenderer vinesToCutRenderer;
 
     private void CheckIfVinesAreCut()
     {
+        bool areVinesCut = true;
+        foreach (ChangeVine vineCut in vinesCut)
+        {
+            areVinesCut &= !vineCut.isVisible;
+        }
+        if (areVinesCut)
+        {
+            pathClear.Invoke();
+        }
+        return;
         // If all of the vines in the path of the ladybug are cut, invoke an event which calls the function from LadybugPath that moves the ladybug and ends the puzzle.
         foreach (SpriteRenderer vineToCut in vinesToCut)
         {
             bool allVinesClear = false; // Variable to keep track of if all the vines in the path have their SpriteRenderers disabled
 
-            if(vinesToCutRenderer?.enabled == true)
+            if (vinesToCutRenderer?.enabled == true)
             {
                 allVinesClear = false; // If any vine in the path has its renderer enabled, that means all vines have not been cleared.
                 break;
             }
 
-            if(allVinesClear == true)
+            if (allVinesClear == true)
             {
                 pathClear.Invoke();
             }
-                
+
         }
     }
 
@@ -65,7 +77,7 @@ public class LadybugVinePuzzle : MonoBehaviour
 
         //    orangeLadybug.transform.rotation = Quaternion.Euler(0f, 0f, 270f);
         //    orangeLadybug.transform.Translate(Vector3.up * moveAmount);
-            
+
         //    redLadybug.transform.Translate(Vector3.up * moveAmount);
 
         //    Destroy(secateurs); // Destroy the secateurs when the last vine is cut

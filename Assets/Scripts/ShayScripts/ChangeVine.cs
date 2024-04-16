@@ -7,10 +7,16 @@ using UnityEngine.Events;
 
 public class ChangeVine : MonoBehaviour
 {
+<<<<<<< Updated upstream
     private SpriteRenderer render;
+=======
+    private SpriteRenderer render; 
 
     [SerializeField]
-    private bool isVisible = true;
+    int id;
+>>>>>>> Stashed changes
+
+    public bool isVisible { get; private set; }
 
     private bool changedByNeighbour;
 
@@ -18,9 +24,9 @@ public class ChangeVine : MonoBehaviour
     private GameObject[] neighbours = new GameObject[2]; // The vines parallel to this vine
 
     public Secateurs secateurs;
-  
-     void Awake()
-     {
+
+    void Awake()
+    {
         render = GetComponent<SpriteRenderer>();
 
         secateurs = (Secateurs)GameObject.FindObjectOfType(typeof(Secateurs));
@@ -39,21 +45,21 @@ public class ChangeVine : MonoBehaviour
     public void ChangeNeighbours()
     {
         foreach (GameObject neighbour in neighbours)
-        {            
+        {
             SpriteRenderer neighbourRenderer;
             neighbourRenderer = neighbour.GetComponent<SpriteRenderer>();
 
             // If the parallel vines are cut, reverse the cut. If they're uncut, cut them.
 
             if (neighbourRenderer.enabled == true)
-            {               
-                neighbourRenderer.enabled = false;                
+            {
+                neighbourRenderer.enabled = false;
                 changedByNeighbour = true;
                 IsChangedByNeighbour();
             }
             else if (neighbourRenderer.enabled == false)
-            {                
-                neighbourRenderer.enabled = true;                
+            {
+                neighbourRenderer.enabled = true;
                 changedByNeighbour = true;  /// check this variable; seems odd
                 IsChangedByNeighbour();
             }
@@ -86,14 +92,14 @@ public class ChangeVine : MonoBehaviour
 
     public void IsChangedByNeighbour()
     {
-        if (changedByNeighbour == true && isVisible == false)       
+        if (changedByNeighbour == true && isVisible == false)
         {
-            render.enabled = true;            
+            render.enabled = true;
             Debug.Log("Changed by neighbour: visible");
         }
-        else if (changedByNeighbour == true && isVisible == true)        
+        else if (changedByNeighbour == true && isVisible == true)
         {
-            render.enabled = false;            
+            render.enabled = false;
             Debug.Log("Changed by neighbour: visible");
 
         }
