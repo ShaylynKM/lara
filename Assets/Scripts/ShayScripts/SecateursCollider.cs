@@ -26,7 +26,7 @@ public class SecateursCollider : MonoBehaviour
             {
                 var changeVine = hit.collider.GetComponent<ChangeVine>();
 
-                changeVine?.CutVine(false);
+                changeVine?.CutVine();
             }
 
         }
