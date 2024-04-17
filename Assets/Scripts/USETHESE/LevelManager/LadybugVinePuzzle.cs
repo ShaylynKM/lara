@@ -13,6 +13,13 @@ public class LadybugVinePuzzle : MonoBehaviour
     [SerializeField]
     private ChangeVine[] vinesCut;
 
+    private SecateursCollider secateursCollider;
+
+    private void Awake()
+    {
+        secateursCollider = (SecateursCollider)GameObject.FindObjectOfType(typeof(SecateursCollider));
+    }
+
     private void CheckIfVinesAreCut()
     {
         bool areVinesCut = true;
@@ -23,6 +30,7 @@ public class LadybugVinePuzzle : MonoBehaviour
         if (areVinesCut)
         {
             pathClear.Invoke();
+            Destroy(secateursCollider); // Destroy the secateurs collider when the puzzle is complete so the player can't keep cutting vines.
         }
     }
 
