@@ -7,26 +7,9 @@ using UnityEngine;
 using UnityEngine.Events;
 
 public class ChangeVine : MonoBehaviour
-{
-    
-
-    [SerializeField]
-    int id;
-
-    
-
-    private bool changedByNeighbour;
-
+{    
     [SerializeField]
     private GameObject[] neighbours = new GameObject[2]; // The vines parallel to this vine
-    
-
-    void Awake()
-    {
-        
-
-    }
-    
 
     public void ChangeNeighbours()
     {
@@ -43,30 +26,25 @@ public class ChangeVine : MonoBehaviour
             else
             {
                 neighbour.gameObject.SetActive(true);
-
             }
         }
     }
 
-
     // For cutting vines, then calling the function that changes the neighbour vines
     public void CutVine()
     {
+        ChangeNeighbours();
 
         if (this.gameObject.activeSelf)              
         {
             this.gameObject.SetActive(false);
-            ChangeNeighbours();
         }
-        else // && changedByNeighbour == true)
+        else
         {
             this.gameObject.SetActive(true);
-            ChangeNeighbours();
         }
 
 
     }
-
-    // Trying to flag when a vine is changed by a neighbour vine vs cut by the players
 
 }
