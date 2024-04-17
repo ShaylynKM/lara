@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class OpenEyePuzzle : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class OpenEyePuzzle : MonoBehaviour
     private FreeTranslate eyeFlowerTranslate;
     private Scale wholeEyeScale;
 
+    private PlayableDirector playableDirector;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +33,9 @@ public class OpenEyePuzzle : MonoBehaviour
 
         eyeFlowerTranslate.isDraggable = false;
         //wholeEyeScale.isDraggable = false;
+        
+        //Sean changes
+        playableDirector = GetComponent<PlayableDirector>();
     }
 
     // Update is called once per frame
@@ -43,14 +48,16 @@ public class OpenEyePuzzle : MonoBehaviour
 
         if (eyeFlower.transform.position == flowerTarget.transform.position)
         {
-            StartCoroutine(StartNewScene());
+            playableDirector.Play();
+            Invoke("StartNewScene", (float)playableDirector.duration);
+            // Invoke("StartNewScene", 2f);
+
             //wholeEyeScale.isDraggable = true;
         }
     }
 
-    IEnumerator StartNewScene()
+    void StartNewScene()
     {
-        yield return new WaitForSeconds(2f);
         changeScenes.LoadNextScene();
     }
 }
