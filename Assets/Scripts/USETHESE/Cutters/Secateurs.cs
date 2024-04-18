@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO.Compression;
+using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,6 +16,7 @@ public class Secateurs : MonoBehaviour
     private Sprite closed;
 
     private SpriteRenderer spriteRenderer;
+
 
     private void Awake()
     {
