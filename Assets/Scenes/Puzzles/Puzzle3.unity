@@ -169,7 +169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 38228982}
   m_Layer: 0
-  m_Name: Vines
+  m_Name: Snakes
   m_TagString: Vine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,7 +187,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 808111297}
+  - {fileID: 6565717605122235098}
   - {fileID: 217317226}
   - {fileID: 1828851697}
   - {fileID: 1368772472}
@@ -218,11 +218,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
   m_PrefabInstance: {fileID: 1853146368}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &73348286 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-  m_PrefabInstance: {fileID: 808111296}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &92916308
 GameObject:
@@ -299,7 +294,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -376,8 +371,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -425,7 +424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine
+      value: CutSnake18
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -512,7 +511,7 @@ PrefabInstance:
       objectReference: {fileID: 1399007634}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine9
+      value: Snake9
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
@@ -524,7 +523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.91
+      value: -0.87000006
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -563,8 +562,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -595,7 +598,7 @@ PrefabInstance:
       objectReference: {fileID: 786362581}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: VineToClear4
+      value: Snake22
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
@@ -615,11 +618,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.57000005
+      value: 0.5760478
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5300002
+      value: 1.5660095
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -654,8 +657,12 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -681,7 +688,7 @@ PrefabInstance:
       objectReference: {fileID: 786362581}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine2
+      value: Snake2
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
@@ -705,7 +712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.21
+      value: -4.18
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -740,8 +747,12 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -758,8 +769,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -815,7 +830,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (23)
+      value: CutSnake24
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -919,7 +934,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -996,8 +1011,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -1053,7 +1072,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (16)
+      value: CutSnake16
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -1083,7 +1102,7 @@ PrefabInstance:
       objectReference: {fileID: 705011122}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: VineToClear6
+      value: Snake24
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -1091,7 +1110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.14
+      value: 5.18
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1130,8 +1149,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -1169,7 +1192,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -1252,10 +1275,10 @@ PrefabInstance:
     - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: neighbours.Array.data[1]
       value: 
-      objectReference: {fileID: 73348286}
+      objectReference: {fileID: 6565717605122235096}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine6
+      value: Snake6
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -1271,11 +1294,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3460474
+      value: -2.34
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.4360094
+      value: -1.39
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1310,8 +1333,12 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -1338,7 +1365,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -1420,7 +1447,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -1628,7 +1655,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -1705,8 +1732,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -1754,7 +1785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (5)
+      value: CutSnake5
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_IsActive
@@ -1821,8 +1852,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -1870,7 +1905,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (2)
+      value: CutSnake2
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -1891,7 +1926,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -1968,8 +2003,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -2017,7 +2056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (9)
+      value: CutSnake10
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -2047,7 +2086,7 @@ PrefabInstance:
       objectReference: {fileID: 383809573}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: VineToClear5
+      value: Snake23
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -2055,7 +2094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.1800003
+      value: 2.2200003
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2094,8 +2133,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5206890758549906178, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -2297,71 +2340,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
   m_PrefabInstance: {fileID: 1352844373}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &762572659
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1787077781}
-    m_Modifications:
-    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.9073098
-      objectReference: {fileID: 0}
-    - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.34389
-      objectReference: {fileID: 0}
-    - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.067293435
-      objectReference: {fileID: 0}
-    - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_Name
-      value: SmallCutVine (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fb6103d7d242797498872db551ca9464, type: 3}
 --- !u!1001 &779774059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2452,8 +2430,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -2509,7 +2491,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (15)
+      value: CutSnake15
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -2532,88 +2514,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
   m_PrefabInstance: {fileID: 1851037271}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &808111296
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 38228982}
-    m_Modifications:
-    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: neighbours.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4005098825576828043, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: neighbours.Array.data[0]
-      value: 
-      objectReference: {fileID: 402578886}
-    - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_Name
-      value: SmallVine1
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.30000007
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.30000007
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.05896802
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
---- !u!4 &808111297 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
-  m_PrefabInstance: {fileID: 808111296}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &827097267 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
@@ -2632,7 +2532,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -2884,7 +2784,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -2970,7 +2870,7 @@ PrefabInstance:
       objectReference: {fileID: 169399475}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine8
+      value: Snake8
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
@@ -2982,7 +2882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.8399997
+      value: -3.7999997
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3021,8 +2921,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -3152,8 +3056,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -3209,7 +3117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (22)
+      value: CutSnake23
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -3230,8 +3138,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -3279,7 +3191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (10)
+      value: CutSnake9
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -3300,7 +3212,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -3427,7 +3339,7 @@ PrefabInstance:
       objectReference: {fileID: 402578886}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine12
+      value: Snake12
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -3443,11 +3355,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.3560476
+      value: -2.35
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4839907
+      value: 1.52
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3482,12 +3394,16 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -3509,8 +3425,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -3558,7 +3478,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (4)
+      value: CutSnake4
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -3641,8 +3561,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -3698,7 +3622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (18)
+      value: CutSnake19
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -3736,7 +3660,7 @@ PrefabInstance:
       objectReference: {fileID: 1574846344}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: VineToClear3
+      value: Snake21
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
@@ -3756,11 +3680,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.62
+      value: 0.6260475
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.4400095
+      value: -1.414
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3795,12 +3719,16 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -3833,7 +3761,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -3919,7 +3847,7 @@ PrefabInstance:
       objectReference: {fileID: 1504167679}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine7
+      value: Snake7
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -3935,11 +3863,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.5739527
+      value: 3.5800002
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5160094
+      value: -1.47
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3974,8 +3902,12 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -4076,7 +4008,7 @@ PrefabInstance:
       objectReference: {fileID: 1551695800}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine4
+      value: Snake4
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
@@ -4088,11 +4020,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.1800003
+      value: 2.2200003
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.97
+      value: -2.991
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4127,12 +4059,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -4168,7 +4104,7 @@ PrefabInstance:
       objectReference: {fileID: 1795919731}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine10
+      value: Snake10
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
@@ -4180,7 +4116,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.1800003
+      value: 2.2200003
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4219,8 +4155,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -4344,7 +4284,7 @@ PrefabInstance:
       objectReference: {fileID: 1472798248}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine18
+      value: Snake18
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -4364,7 +4304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.15
+      value: 4.18
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4399,8 +4339,12 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -4434,7 +4378,7 @@ PrefabInstance:
       objectReference: {fileID: 705011122}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine15
+      value: Snake15
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
@@ -4446,7 +4390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.91
+      value: -0.87000006
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4485,12 +4429,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5206890758549906178, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: IsVisible
@@ -4531,8 +4479,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -4588,7 +4540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (20)
+      value: CutSnake21
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -4633,7 +4585,7 @@ PrefabInstance:
       objectReference: {fileID: 1220457583}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine16
+      value: Snake16
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
@@ -4657,7 +4609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.15
+      value: 4.18
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4692,8 +4644,12 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -4724,7 +4680,7 @@ PrefabInstance:
       objectReference: {fileID: 1368772473}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine5
+      value: Snake5
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -4732,11 +4688,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.14
+      value: 5.18
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.97
+      value: -2.99
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4771,8 +4727,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -4794,8 +4754,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -4851,7 +4815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (17)
+      value: CutSnake17
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -4908,8 +4872,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -4965,7 +4933,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (21)
+      value: CutSnake22
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -4991,8 +4959,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -5040,7 +5012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (8)
+      value: CutSnake11
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -5061,7 +5033,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -5138,8 +5110,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -5195,7 +5171,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (19)
+      value: CutSnake20
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -5218,7 +5194,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1787077781}
   m_Layer: 0
-  m_Name: CutVines
+  m_Name: CutSnakes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5236,7 +5212,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1846575322}
+  - {fileID: 3204659716298583204}
   - {fileID: 687356867}
   - {fileID: 806219576}
   - {fileID: 827097267}
@@ -5280,7 +5256,7 @@ PrefabInstance:
       objectReference: {fileID: 749299847}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine13
+      value: Snake13
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsActive
@@ -5300,11 +5276,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.5639524
+      value: 3.5700002
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4539905
+      value: 1.4899998
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5339,8 +5315,12 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4562830963893793725, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_IsTrigger
@@ -5365,7 +5345,7 @@ PrefabInstance:
       objectReference: {fileID: 1399007634}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine11
+      value: Snake11
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -5373,7 +5353,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.14
+      value: 5.18
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5412,8 +5392,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -5435,8 +5419,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -5484,7 +5472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (11)
+      value: CutSnake8
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -5530,7 +5518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: VineToClear1
+      value: Snake19
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -5538,7 +5526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.8399997
+      value: -3.7999997
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5577,8 +5565,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -5611,8 +5603,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -5668,7 +5664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (12)
+      value: CutSnake12
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -5693,7 +5689,7 @@ PrefabInstance:
       objectReference: {fileID: 749299847}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine3
+      value: Snake3
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -5713,7 +5709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.21
+      value: -4.18
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5748,8 +5744,12 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -5775,7 +5775,7 @@ PrefabInstance:
       objectReference: {fileID: 1368772473}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: VineToClear2
+      value: Snake20
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -5787,7 +5787,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.92124754
+      value: -0.8812476
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5826,8 +5826,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -5860,8 +5864,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -5917,7 +5925,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (13)
+      value: CutSnake13
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -5925,11 +5933,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb6103d7d242797498872db551ca9464, type: 3}
---- !u!4 &1846575322 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
-  m_PrefabInstance: {fileID: 762572659}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1848559035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5947,7 +5950,7 @@ PrefabInstance:
       objectReference: {fileID: 1435767282}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine14
+      value: Snake14
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -5955,7 +5958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.8399997
+      value: -3.7999997
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5994,8 +5997,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -6022,7 +6029,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -6099,8 +6106,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -6148,7 +6159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (3)
+      value: CutSnake3
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -6164,8 +6175,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -6213,7 +6228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (6)
+      value: CutSnake6
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -6234,7 +6249,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -6453,7 +6468,7 @@ PrefabInstance:
       objectReference: {fileID: 990379868}
     - target: {fileID: 985979515570520744, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_Name
-      value: SmallVine17
+      value: Snake17
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_RootOrder
@@ -6473,7 +6488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.15
+      value: 4.18
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520746, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6508,8 +6523,12 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9dbde9735bf574946bafe16b8ad17736, type: 3}
+    - target: {fileID: 985979515570520747, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da0a15cda3e0029439cad692d6168dd4, type: 3}
@@ -6526,8 +6545,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -6575,7 +6598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (7)
+      value: CutSnake7
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -6671,7 +6694,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -6753,7 +6776,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 61a156db8fd4df34eb100a774341a979, type: 3}
     - target: {fileID: 2910568746743440120, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_SortingOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2910568746743440121, guid: f2c1fddf8fcd54244ae8db7b9954ddee, type: 3}
       propertyPath: m_RootOrder
@@ -6830,8 +6853,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 1787077781}
     m_Modifications:
     - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c17ac5ce988dc442992778e907e3952, type: 3}
+    - target: {fileID: 1151423847807688192, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3204659715536110551, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_RootOrder
@@ -6887,7 +6914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_Name
-      value: SmallCutVine (14)
+      value: CutSnake14
       objectReference: {fileID: 0}
     - target: {fileID: 8716357796357193788, guid: fb6103d7d242797498872db551ca9464, type: 3}
       propertyPath: m_TagString
@@ -6926,3 +6953,136 @@ Transform:
   m_Father: {fileID: 745806787}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1832886073262165802
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1787077781}
+    m_Modifications:
+    - target: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.9073098
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.34389
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.067293435
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7032653461496619109, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+      propertyPath: m_Name
+      value: CutSnake1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+--- !u!4 &3204659716298583204 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3825391324261409678, guid: 344e05c3f43d74f4a814702248a3226b, type: 3}
+  m_PrefabInstance: {fileID: 1832886073262165802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3641007718692687286
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 38228982}
+    m_Modifications:
+    - target: {fileID: 3196580095153727155, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: neighbours.Array.data[0]
+      value: 
+      objectReference: {fileID: 402578886}
+    - target: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.05896802
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609227784362448750, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+      propertyPath: m_Name
+      value: Snake1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+--- !u!1 &6565717605122235096 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7609227784362448750, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+  m_PrefabInstance: {fileID: 3641007718692687286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6565717605122235098 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7609227784362448748, guid: c0b8b21ab8a0fb9468817fc7f9b165c0, type: 3}
+  m_PrefabInstance: {fileID: 3641007718692687286}
+  m_PrefabAsset: {fileID: 0}
