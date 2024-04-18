@@ -13,66 +13,59 @@ MonoBehaviour:
   m_Name: DemoStory
   m_EditorClassIdentifier: 
   links:
+  - guid: 65c25ee5-019f-4b5d-b1cd-9bec767f6188
+    targetGuid: 71a9708e-ecc5-45c1-8cf8-c8bbda33341d
+    portId: 0
+  - guid: 71a9708e-ecc5-45c1-8cf8-c8bbda33341d
+    targetGuid: e9ce8f74-112d-4839-9c7f-0ac557acada9
+    portId: 1
+  - guid: e9ce8f74-112d-4839-9c7f-0ac557acada9
+    targetGuid: 118ba156-68ec-421c-a337-0e4dbe4e27d5
+    portId: 2
+  - guid: cfe25e6b-3c07-4716-b1e2-e77f81ab3b2f
+    targetGuid: 65c25ee5-019f-4b5d-b1cd-9bec767f6188
+    portId: 3
+  - guid: 118ba156-68ec-421c-a337-0e4dbe4e27d5
+    targetGuid: c8b60af8-676c-43e2-b751-51613c793355
+    portId: 4
+  - guid: c8b60af8-676c-43e2-b751-51613c793355
+    targetGuid: 67d1b9d2-1101-4be9-a524-7a096bd168f5
+    portId: 5
+  - guid: 67d1b9d2-1101-4be9-a524-7a096bd168f5
+    targetGuid: 44907569-f8b5-4457-9d64-c9c0aeac1273
+    portId: 6
+  - guid: 44907569-f8b5-4457-9d64-c9c0aeac1273
+    targetGuid: 963b005e-2314-4c32-ac7a-9d0780b4d865
+    portId: 7
+  - guid: d5c1ecd0-5478-4d15-8173-9c3d4d8d9ee9
+    targetGuid: 9d7a967d-db91-4862-8c9c-7b1c7c568079
+    portId: 8
+  - guid: 9d7a967d-db91-4862-8c9c-7b1c7c568079
+    targetGuid: f62b4800-bf54-4759-8c80-da44f395a860
+    portId: 9
+  - guid: f62b4800-bf54-4759-8c80-da44f395a860
+    targetGuid: 8ea41aae-0e08-4035-9439-a9418aeb9a3a
+    portId: 10
   - guid: 43443b6a-8fc6-4ee0-b9e4-3b5ab85f09fa
     targetGuid: cfe25e6b-3c07-4716-b1e2-e77f81ab3b2f
-    portId: 0
-  - guid: cfe25e6b-3c07-4716-b1e2-e77f81ab3b2f
-    targetGuid: 431c40f2-9d68-495c-a2d2-30a993e9f18c
-    portId: 1
-  - guid: 431c40f2-9d68-495c-a2d2-30a993e9f18c
-    targetGuid: 71c7307d-a03c-48d1-8f37-156bc5b1edbe
-    portId: 2
-  - guid: 431c40f2-9d68-495c-a2d2-30a993e9f18c
-    targetGuid: bdfa56de-447b-42b4-ac61-1bc01f9ad49c
-    portId: 3
-  - guid: 71c7307d-a03c-48d1-8f37-156bc5b1edbe
-    targetGuid: 1cc55e00-ccd1-47a1-9774-c54127a043ef
-    portId: 4
-  - guid: bdfa56de-447b-42b4-ac61-1bc01f9ad49c
-    targetGuid: 1e23bf54-9afd-47c6-ba76-942101512a55
-    portId: 5
+    portId: 11
+  - guid: f2c571e2-ac48-4fac-a2a7-62c01c0d9f32
+    targetGuid: 269ca404-f5db-4c82-b5a2-f0e7c7856e76
+    portId: 12
+  - guid: 71e6c68d-b897-4fe8-a245-b0863096b3e1
+    targetGuid: f2c571e2-ac48-4fac-a2a7-62c01c0d9f32
+    portId: 13
+  - guid: 269ca404-f5db-4c82-b5a2-f0e7c7856e76
+    targetGuid: d5c1ecd0-5478-4d15-8173-9c3d4d8d9ee9
+    portId: 14
+  - guid: 963b005e-2314-4c32-ac7a-9d0780b4d865
+    targetGuid: 71e6c68d-b897-4fe8-a245-b0863096b3e1
+    portId: 15
   nodes:
   - guid: cfe25e6b-3c07-4716-b1e2-e77f81ab3b2f
-    characterSpr: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
-    characterName: Rambear
-    dialogueText: What? Again?
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 992
-      y: 373
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 899d7fef1c29cd24d9ef66ba70f865d7, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: 431c40f2-9d68-495c-a2d2-30a993e9f18c
-    characterSpr: {fileID: 21300000, guid: e89e94c938bf20549b956865c8ecab8d, type: 3}
-    characterName: Coon
-    dialogueText: Yes! Gib me foods!
-    backgroundSpr: {fileID: 21300000, guid: 375910f00bc5ed64b8b7415a00664f88, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 2
-    choiceOptions:
-    - Okay coon
-    - No, not now
-    nodePosition:
-      serializedVersion: 2
-      x: 1707
-      y: 385
-      width: 499
-      height: 369
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 71c7307d-a03c-48d1-8f37-156bc5b1edbe
-    characterSpr: {fileID: 21300000, guid: e89e94c938bf20549b956865c8ecab8d, type: 3}
-    characterName: Coon
-    dialogueText: Yeyyy!!
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: WELCOME TO HYACINTH, WHAT CAN I DO FOR YOU?
     backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
     startNode: 0
     endNode: 0
@@ -81,71 +74,17 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2478
-      y: 267
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: 1cc55e00-ccd1-47a1-9774-c54127a043ef
-    characterSpr: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
-    characterName: Rambear
-    dialogueText: I'll finish the food soon
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3151
-      y: 267
-      width: 499
-      height: 305
-    soundEffect: {fileID: 8300000, guid: 899d7fef1c29cd24d9ef66ba70f865d7, type: 3}
-    backgroundMusic: {fileID: 0}
-  - guid: bdfa56de-447b-42b4-ac61-1bc01f9ad49c
-    characterSpr: {fileID: 0}
-    characterName: 
-    dialogueText: '"Coon runs away crying"'
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2549
-      y: 713
-      width: 499
-      height: 305
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 1e23bf54-9afd-47c6-ba76-942101512a55
-    characterSpr: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
-    characterName: Rambear
-    dialogueText: Maybe I should have given coon foods
-    backgroundSpr: {fileID: 0}
-    startNode: 0
-    endNode: 1
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3341
-      y: 758
-      width: 499
-      height: 305
+      x: 880.6667
+      y: 350.66666
+      width: 501.3333
+      height: 306.6667
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: 43443b6a-8fc6-4ee0-b9e4-3b5ab85f09fa
-    characterSpr: {fileID: 21300000, guid: a55ff6c9161d81d48a92a640501a2cce, type: 3}
-    characterName: Coon
-    dialogueText: Rambear! I'm hungry!
-    backgroundSpr: {fileID: 21300000, guid: 510f014603c90da4eb5cda97bf5a5847, type: 3}
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: Dream...
+    backgroundSpr: {fileID: 21300000, guid: f575fc8acaf83c14d9047e17da5e19fd, type: 3}
     startNode: 1
     endNode: 0
     choices: 1
@@ -153,9 +92,293 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 317
-      y: 373
-      width: 499
-      height: 305
+      x: 288
+      y: 352.66666
+      width: 501.3333
+      height: 306.6667
     soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 8300000, guid: 60cbbe24b7112a94992bed39df6325ed, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 65c25ee5-019f-4b5d-b1cd-9bec767f6188
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: ...
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1454
+      y: 352.66666
+      width: 501.33337
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 71a9708e-ecc5-45c1-8cf8-c8bbda33341d
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "Oh geez that sounded so awkward. \rIf I greet people like that,
+      they\u2019ll just run away\u2026 \rI\u2019m not sure if I want to listen to
+      myself talk like that.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2019.3334
+      y: 348
+      width: 501.33337
+      height: 306.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e9ce8f74-112d-4839-9c7f-0ac557acada9
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "Welcome welcome welcome to Hyacinth! Step right this way my good
+      folk, where you may view our esteemed collection of \u2026 of \u2026 gourmet
+      \u2026 fragrant \u2026 artisanal flowers! "
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2576.6667
+      y: 356.66666
+      width: 501.33325
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 118ba156-68ec-421c-a337-0e4dbe4e27d5
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "Hand wrapped and hand picked, just the thing to get your wife
+      to shred those divorce papers. Maybe she\u2019ll even come back to you!"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3127.3333
+      y: 359.3333
+      width: 501.3335
+      height: 306.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c8b60af8-676c-43e2-b751-51613c793355
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "\u2026 I probably shouldn\u2019t say that to customers \u2026 "
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3672
+      y: 362.66666
+      width: 501.3335
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 67d1b9d2-1101-4be9-a524-7a096bd168f5
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "Gah! I wish I enjoyed listening to my own voice. \rAt least no
+      one is listening to whatever crazy pitch I\u2019m doing right now.. \r I already
+      feel super embarrassed listening to that\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3676
+      y: 725.3334
+      width: 501.3335
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 44907569-f8b5-4457-9d64-c9c0aeac1273
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "\u2026\u2026\u2026\u2026.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3122
+      y: 730
+      width: 501.33325
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 963b005e-2314-4c32-ac7a-9d0780b4d865
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "HEEEEEEELLLLOOOOOOOOOOOOOOOOOOOO\u2013"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2584
+      y: 736.6667
+      width: 501.33325
+      height: 306.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 71e6c68d-b897-4fe8-a245-b0863096b3e1
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "\u2013F#@%!@\u2013 WELCOME TO HYACINTH?! \r\nDid I already unlock
+      the door for opening?\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2028
+      y: 734
+      width: 501.33325
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8ea41aae-0e08-4035-9439-a9418aeb9a3a
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "H-hi?! I\u2019m nice to you\u2026no, um\u2026 meet\u2026 nice\u2026.
+      weather today\u2026 to meet you!! I\u2019m \u2014"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1484.6666
+      y: 1106.6666
+      width: 501.33337
+      height: 306.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f2c571e2-ac48-4fac-a2a7-62c01c0d9f32
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "Why are those - how long have all of those people been outside?
+      \rThey\u2019re staring\u2026 \u2026why is he looking at me like he knows me? 
+      \r\n"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1446.6666
+      y: 736
+      width: 501.33337
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f62b4800-bf54-4759-8c80-da44f395a860
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: "Nobody has ever been so excited to see me before!! \rYou\u2019re
+      in my class!  I\u2019m Kut!\r"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 888
+      y: 1108.6666
+      width: 501.33337
+      height: 306.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 269ca404-f5db-4c82-b5a2-f0e7c7856e76
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "Hold on, that outrageously flamboyant green outfit seems familiar.
+      \rDid they hear me talking? All of it?"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 882
+      y: 746
+      width: 501.33337
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d5c1ecd0-5478-4d15-8173-9c3d4d8d9ee9
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: "And a HEELLLOOOOOOOOO to you too! This is great! \r"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 302
+      y: 744
+      width: 501.3333
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9d7a967d-db91-4862-8c9c-7b1c7c568079
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "More like a hellllllllll noooooo you did not just hear all that!\rWhat\u2019s
+      great?\r"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 304
+      y: 1102
+      width: 501.3333
+      height: 306.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

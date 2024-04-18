@@ -877,7 +877,7 @@ MonoBehaviour:
   choiceBtn2: {fileID: 1897164524}
   choiceBtn3: {fileID: 1883126466}
   endScreen: {fileID: 1529280020}
-  mainMenu: Assets/VNCreator/_Demo/Scenes/MainMenu.unity
+  mainMenu: 
 --- !u!4 &533375925
 Transform:
   m_ObjectHideFlags: 0
