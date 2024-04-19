@@ -571,8 +571,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5e78e5b32d449ed449578802ab6e11e9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -693,8 +693,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5e78e5b32d449ed449578802ab6e11e9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -815,8 +815,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5e78e5b32d449ed449578802ab6e11e9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -833,66 +833,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 523550279}
   m_CullTransparentMesh: 1
---- !u!1 &533375923
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 533375925}
-  - component: {fileID: 533375924}
-  m_Layer: 0
-  m_Name: UI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &533375924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533375923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19bffdf8e809ebd439aaf9f444d2ea04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  story: {fileID: 11400000, guid: f89a207568a68344481ab15ca705153a, type: 2}
-  characterNameTxt: {fileID: 2053690587}
-  dialogueTxt: {fileID: 1236659805}
-  characterImg: {fileID: 1548648291}
-  backgroundImg: {fileID: 1529280022}
-  musicSource: {fileID: 0}
-  soundEffectSource: {fileID: 0}
-  nextBtn: {fileID: 523550281}
-  previousBtn: {fileID: 460052267}
-  saveBtn: {fileID: 672824052}
-  menuButton: {fileID: 1844119504}
-  choiceBtn1: {fileID: 446084360}
-  choiceBtn2: {fileID: 1897164524}
-  choiceBtn3: {fileID: 1883126466}
-  endScreen: {fileID: 1529280020}
-  mainMenu: 
---- !u!4 &533375925
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533375923}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 211.48254, y: 57.8046, z: -3.2782953}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &672824050
 GameObject:
   m_ObjectHideFlags: 0
@@ -997,8 +937,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5e78e5b32d449ed449578802ab6e11e9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1887,7 +1827,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 375910f00bc5ed64b8b7415a00664f88, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d470d7fc7d8853c4eb47dc66bf40eab2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1963,7 +1903,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1981,6 +1921,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1548648289}
   m_CullTransparentMesh: 1
+--- !u!1 &1621329198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1621329200}
+  - component: {fileID: 1621329199}
+  m_Layer: 0
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1621329199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621329198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19bffdf8e809ebd439aaf9f444d2ea04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  story: {fileID: 11400000, guid: d3556a7a5f02b4b4d9b716e20506a59d, type: 2}
+  characterNameTxt: {fileID: 2053690587}
+  dialogueTxt: {fileID: 1236659805}
+  characterImg: {fileID: 1548648291}
+  backgroundImg: {fileID: 1529280022}
+  musicSource: {fileID: 832014592030663946, guid: 41617f7135d2585439533bf53885117b, type: 3}
+  soundEffectSource: {fileID: 832014592030663946, guid: 41617f7135d2585439533bf53885117b, type: 3}
+  nextBtn: {fileID: 523550281}
+  previousBtn: {fileID: 460052267}
+  saveBtn: {fileID: 672824052}
+  menuButton: {fileID: 2092157681}
+  choiceBtn1: {fileID: 446084360}
+  choiceBtn2: {fileID: 1897164524}
+  choiceBtn3: {fileID: 1883126466}
+  endScreen: {fileID: 1928461400}
+  mainMenu: Assets/VNCreator/_Demo/Scenes/MainMenu.unity
+--- !u!4 &1621329200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621329198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 211.48254, y: 57.8046, z: -3.2782953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1669004857
 GameObject:
   m_ObjectHideFlags: 0
@@ -3012,8 +3012,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5e78e5b32d449ed449578802ab6e11e9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
