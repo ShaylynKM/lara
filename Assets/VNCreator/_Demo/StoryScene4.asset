@@ -56,69 +56,20 @@ MonoBehaviour:
     targetGuid: f2c571e2-ac48-4fac-a2a7-62c01c0d9f32
     portId: 13
   - guid: 9d7a967d-db91-4862-8c9c-7b1c7c568079
-    targetGuid: 8ea41aae-0e08-4035-9439-a9418aeb9a3a
+    targetGuid: b97c95b9-f024-4c04-825f-81a5daa566fe
     portId: 14
+  - guid: b97c95b9-f024-4c04-825f-81a5daa566fe
+    targetGuid: 7c4a841f-f776-41b3-a912-858704beaad4
+    portId: 15
+  - guid: 7c4a841f-f776-41b3-a912-858704beaad4
+    targetGuid: 91828b48-acf9-4176-b579-1a78ba9ea25a
+    portId: 16
   nodes:
-  - guid: 71a9708e-ecc5-45c1-8cf8-c8bbda33341d
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: "If I greet people like that, they\u2019ll just run away\u2026
-      \r"
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2019.3334
-      y: 348
-      width: 501.33337
-      height: 306.66666
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 118ba156-68ec-421c-a337-0e4dbe4e27d5
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: "Hand wrapped and hand picked, just the thing to get your wife
-      to shred those divorce papers. Maybe she\u2019ll even come back to you!"
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3127.3333
-      y: 359.3333
-      width: 501.3335
-      height: 306.66666
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: c8b60af8-676c-43e2-b751-51613c793355
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: "\u2026 I probably shouldn\u2019t say that to customers \u2026 "
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3672
-      y: 362.66666
-      width: 501.3335
-      height: 306.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: 44907569-f8b5-4457-9d64-c9c0aeac1273
     characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
     characterName: LARU
-    dialogueText: "\u2026\u2026\u2026\u2026.\r\n"
+    dialogueText: "Maybe, I can feel less lonely if I accept this invitation.\r\nUhm,
+      that sounds - okay I think.\r"
     backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
     startNode: 0
     endNode: 0
@@ -133,103 +84,10 @@ MonoBehaviour:
       height: 306.6667
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: 963b005e-2314-4c32-ac7a-9d0780b4d865
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: "HEEEEEEELLLLOOOOOOOOOOOOOOOOOOOO\u2013"
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2584
-      y: 736.6667
-      width: 501.33325
-      height: 306.66663
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 269ca404-f5db-4c82-b5a2-f0e7c7856e76
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: "Hold on, that outrageously  green outfit seems familiar. What
-      is this smell? It\u2019s so sharp, kinda woody\u2026 like how the shop smells
-      over the holidays. Did we start stocking more branches? \rDid they hear me
-      talking? All of it? \r\n"
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 882
-      y: 746
-      width: 501.33337
-      height: 306.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: d5c1ecd0-5478-4d15-8173-9c3d4d8d9ee9
-    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
-    characterName: KUT
-    dialogueText: 'And a HEELLLOOOOOOOOO to you too! This is great! '
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 302
-      y: 744
-      width: 501.3333
-      height: 306.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: cfe25e6b-3c07-4716-b1e2-e77f81ab3b2f
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: WELCOME TO HYACINTH, WHAT CAN I DO FOR YOU?
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 880.6667
-      y: 350.66666
-      width: 501.3333
-      height: 306.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 43443b6a-8fc6-4ee0-b9e4-3b5ab85f09fa
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: Dream...
-    backgroundSpr: {fileID: 21300000, guid: f575fc8acaf83c14d9047e17da5e19fd, type: 3}
-    startNode: 1
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 288
-      y: 352.66666
-      width: 501.3333
-      height: 306.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: 65c25ee5-019f-4b5d-b1cd-9bec767f6188
     characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
     characterName: LARU
-    dialogueText: ...
+    dialogueText: Yeah? I can hear you?
     backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
     startNode: 0
     endNode: 0
@@ -247,9 +105,7 @@ MonoBehaviour:
   - guid: e9ce8f74-112d-4839-9c7f-0ac557acada9
     characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
     characterName: LARU
-    dialogueText: "Welcome welcome welcome to Hyacinth! Step right this way my good
-      folk, where you may view our esteemed collection of \u2026 of \u2026 gourmet
-      \u2026 fragrant \u2026 artisanal flowers! "
+    dialogueText: "Fine \u2014 I guess."
     backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
     startNode: 0
     endNode: 0
@@ -264,50 +120,10 @@ MonoBehaviour:
       height: 306.6667
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: 67d1b9d2-1101-4be9-a524-7a096bd168f5
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: "Wonder what it\u2019s like to actually have social skills\u2026.
-      Why is this so hard, what is wrong with me? Maybe I should just scream all
-      of my greetings, anything will be better than people having to listen to my
-      voice. \r"
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3676
-      y: 725.3334
-      width: 501.3335
-      height: 306.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: f2c571e2-ac48-4fac-a2a7-62c01c0d9f32
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: "How long have all of those people been outside? \rThey\u2019re
-      staring\u2026 \u2026why is he looking at me like he knows me?  \r\n"
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 1446.6666
-      y: 736
-      width: 501.33337
-      height: 306.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
   - guid: 71e6c68d-b897-4fe8-a245-b0863096b3e1
     characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
     characterName: LARU
-    dialogueText: "WELCOME TO HYACINTH?! \rDid I already unlock the door for opening?\r"
+    dialogueText: Okaaay.
     backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
     startNode: 0
     endNode: 0
@@ -322,12 +138,203 @@ MonoBehaviour:
       height: 306.6667
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
+  - guid: 43443b6a-8fc6-4ee0-b9e4-3b5ab85f09fa
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "Oh no, I have some text messages from Kut! \r\nHe told me to call
+      him.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 288
+      y: 352.66666
+      width: 501.3333
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: cfe25e6b-3c07-4716-b1e2-e77f81ab3b2f
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: Laru? Am I using this phone right?
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 880.6667
+      y: 350.66666
+      width: 501.3333
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 71a9708e-ecc5-45c1-8cf8-c8bbda33341d
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: How are you doing?
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2019.3334
+      y: 348
+      width: 501.33337
+      height: 306.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 118ba156-68ec-421c-a337-0e4dbe4e27d5
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: "Do you feel like hanging over in my dorm room? \r\nIt\u2019s pretty
+      small, but it\u2019ll be just the two of us. \r"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3127.3333
+      y: 359.3333
+      width: 501.3335
+      height: 306.66666
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c8b60af8-676c-43e2-b751-51613c793355
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: wHaT?!?
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3672
+      y: 362.66666
+      width: 501.3335
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 67d1b9d2-1101-4be9-a524-7a096bd168f5
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: "You do prefer quiet places with less people right?\r\nI\u2019ll
+      even make you a cup of tea! Do I remember how to even make a cup of tea? Will
+      he like it?!? \r"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3676
+      y: 725.3334
+      width: 501.3335
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 963b005e-2314-4c32-ac7a-9d0780b4d865
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: Schweet! See you then.
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2584
+      y: 736.6667
+      width: 501.33325
+      height: 306.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f2c571e2-ac48-4fac-a2a7-62c01c0d9f32
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: (with open arms) Welcome to my sanctuary! Make yourself at home!
+    backgroundSpr: {fileID: 21300000, guid: df0efcab9ff6a284c85b2d98b730aa40, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1446.6666
+      y: 736
+      width: 501.33337
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 269ca404-f5db-4c82-b5a2-f0e7c7856e76
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "(Thinking: Seriously, what is this smell? Trees? Is this dude
+      a tree? Pine and\u2026and\u2026wet\u2026rocks? What is this, a forest?????
+      Hey, cool,  is that a pine bonsai? Or\u20268 of them? 12? Wait, how many of
+      them are there? I can\u2019t even see the walls\u2026 "
+    backgroundSpr: {fileID: 21300000, guid: df0efcab9ff6a284c85b2d98b730aa40, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 882
+      y: 746
+      width: 501.33337
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d5c1ecd0-5478-4d15-8173-9c3d4d8d9ee9
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: "This is my prized pine bonsai collection. Aren\u2019t they wonderful?
+      \r\nThey are my pride and joy. I would marry all of them if I could. \r"
+    backgroundSpr: {fileID: 21300000, guid: df0efcab9ff6a284c85b2d98b730aa40, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 302
+      y: 744
+      width: 501.3333
+      height: 306.6667
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
   - guid: 9d7a967d-db91-4862-8c9c-7b1c7c568079
     characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
     characterName: KUT
-    dialogueText: "Nobody has ever been so excited to see me before!! \rYou\u2019re
-      in my class!  I\u2019m Kut!\r"
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    dialogueText: "Over here are my tribes of acorns. And this is my beautiful empire
+      of rocks. This lil one here is Sir Company, it\u2019s from when my parents
+      aren\u2019t home that one Christmas. This moss rock cutie is called Zoro, I
+      found it alone in the forest without my parents. This kinda brown rock is called
+      Unchi, my adorable dog pooped it out -"
+    backgroundSpr: {fileID: 21300000, guid: df0efcab9ff6a284c85b2d98b730aa40, type: 3}
     startNode: 0
     endNode: 0
     choices: 1
@@ -341,12 +348,52 @@ MonoBehaviour:
       height: 306.66663
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: 8ea41aae-0e08-4035-9439-a9418aeb9a3a
+  - guid: b97c95b9-f024-4c04-825f-81a5daa566fe
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "Oh my lord, there\u2019s thousands of dollars of pine bonsai trees
+      in this room\u2026 \r\nHe really kept a rock turd \u2014 this guy is pretty
+      nutty\r"
+    backgroundSpr: {fileID: 21300000, guid: df0efcab9ff6a284c85b2d98b730aa40, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 863.3333
+      y: 1102.6666
+      width: 501.3333
+      height: 306.66663
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7c4a841f-f776-41b3-a912-858704beaad4
     characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
     characterName: KUT
-    dialogueText: "H-hi?! I\u2019m nice to you\u2026no, um\u2026 meet\u2026 nice\u2026.
-      weather today\u2026 to meet you!! I\u2019m \u2014 \r"
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    dialogueText: "Ahahahaha ahh, sorry, that was kinda gross and weird huh. \r\nI\u2019ll
+      go make us tea.\r"
+    backgroundSpr: {fileID: 21300000, guid: df0efcab9ff6a284c85b2d98b730aa40, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1419.3334
+      y: 1103.3333
+      width: 501.33325
+      height: 306.66675
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 91828b48-acf9-4176-b579-1a78ba9ea25a
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "Did he just spill tea on the countertop?\r\nAlso, why does it
+      feel like I can tell him anything without being judged? \r\nIs t-this what
+      a good friend is supposed to make you feel like?\r"
+    backgroundSpr: {fileID: 21300000, guid: df0efcab9ff6a284c85b2d98b730aa40, type: 3}
     startNode: 0
     endNode: 1
     choices: 1
@@ -354,8 +401,8 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 866
-      y: 1101.3333
+      x: 1991.3334
+      y: 1093.3333
       width: 501.33337
       height: 306.66675
     soundEffect: {fileID: 0}
