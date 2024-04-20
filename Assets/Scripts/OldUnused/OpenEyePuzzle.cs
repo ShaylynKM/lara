@@ -7,7 +7,6 @@ public class OpenEyePuzzle : MonoBehaviour
     private GameObject eyeLid;
     private GameObject eyeFlower;
     private GameObject eyeTarget;
-    private GameObject flowerTarget;
     private GameObject wholeEye;
 
     private ChangeScenes changeScenes;
@@ -21,16 +20,13 @@ public class OpenEyePuzzle : MonoBehaviour
         changeScenes = GameObject.Find("SceneManager").GetComponent<ChangeScenes>();
         
         eyeLid = GameObject.Find("eyeTrans");
-        eyeFlower = GameObject.Find("eyeFlower");
-        eyeTarget = GameObject.Find("EyeTarget");
-        flowerTarget = GameObject.Find("FlowerTarget");
-        //wholeEye = GameObject.Find("Eye");
+        //eyeFlower = GameObject.Find("eyeFlower");
+        eyeTarget = GameObject.Find("p1");
+        //flowerTarget = GameObject.Find("FlowerTarget");
         eyeLidTranslate = GameObject.Find("eyeTrans").GetComponent<FreeTranslate>();
-        eyeFlowerTranslate = GameObject.Find("eyeFlower").GetComponent<FreeTranslate>();
-        //wholeEyeScale = GameObject.Find("Eye").GetComponent<Scale>();
+        //eyeFlowerTranslate = GameObject.Find("eyeFlower").GetComponent<FreeTranslate>();
 
         eyeFlowerTranslate.isDraggable = false;
-        //wholeEyeScale.isDraggable = false;
     }
 
     // Update is called once per frame
@@ -38,14 +34,16 @@ public class OpenEyePuzzle : MonoBehaviour
     {
         if (eyeLid.transform.position == eyeTarget.transform.position)
         {
-            eyeFlowerTranslate.isDraggable = true;
+            eyeLidTranslate.isDraggable = false;
+            StartCoroutine(StartNewScene());
+            //eyeFlowerTranslate.isDraggable = true;
         }
 
-        if (eyeFlower.transform.position == flowerTarget.transform.position)
-        {
-            StartCoroutine(StartNewScene());
-            //wholeEyeScale.isDraggable = true;
-        }
+        //if (eyeFlower.transform.position == flowerTarget.transform.position)
+        //{
+        //    StartCoroutine(StartNewScene());
+        //    //wholeEyeScale.isDraggable = true;
+        //}
     }
 
     IEnumerator StartNewScene()
