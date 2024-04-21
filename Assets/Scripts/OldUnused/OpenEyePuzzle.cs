@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 public class OpenEyePuzzle : MonoBehaviour
 {
@@ -14,7 +16,13 @@ public class OpenEyePuzzle : MonoBehaviour
     private FreeTranslate eyeFlowerTranslate;
     private Scale wholeEyeScale;
 
-    // Start is called before the first frame update
+    private PlayableDirector playableDirector; // Camera transition
+
+    private void Awake()
+    {
+        playableDirector = GetComponent<PlayableDirector>();
+    }
+
     void Start()
     {
         changeScenes = GameObject.Find("SceneManager").GetComponent<ChangeScenes>();
@@ -29,14 +37,12 @@ public class OpenEyePuzzle : MonoBehaviour
         eyeFlowerTranslate.isDraggable = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (eyeLid.transform.position == eyeTarget.transform.position)
         {
             eyeLidTranslate.isDraggable = false;
-            StartCoroutine(StartNewScene());
-            //eyeFlowerTranslate.isDraggable = true;
+
         }
 
         //if (eyeFlower.transform.position == flowerTarget.transform.position)
@@ -46,9 +52,16 @@ public class OpenEyePuzzle : MonoBehaviour
         //}
     }
 
-    IEnumerator StartNewScene()
+    public void SceneAndCam()
     {
-        yield return new WaitForSeconds(2f);
-        changeScenes.LoadNextScene();
+        playableDirector.Play();
+        Invoke("StartNewScene", (float)playableDirector.duration); // Loads the next scene after the playable director finishes playing the camera sequence
     }
+
+    private void StartNewScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+ 
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PathTranslate : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class PathTranslate : MonoBehaviour
     [SerializeField] private float grabDistance = .5f;
     private Transform closestPoint;
     private bool isDragging = false;
+
+    public UnityEvent PuzzleSolved;
 
     // Update is called once per frame
     void Update()
@@ -76,6 +79,9 @@ public class PathTranslate : MonoBehaviour
             if (distanceToTarget < snapDistance)
             {
                 transform.position = closestPoint;
+
+                PuzzleSolved.Invoke(); // Invokes the event that calls SceneAndCam() from OpenEyePuzzle
+
                 Debug.Log("Puzzle Solved!");
             }
             isDragging = false;
