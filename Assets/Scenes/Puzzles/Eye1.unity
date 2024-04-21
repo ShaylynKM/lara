@@ -848,21 +848,6 @@ MonoBehaviour:
   - {fileID: 1424152568}
   snapDistance: 1.5
   grabDistance: 4
-  PuzzleSolved:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1942228316}
-        m_TargetAssemblyTypeName: OpenEyePuzzle, Assembly-CSharp
-        m_MethodName: SceneAndCam
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &947100757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1405,6 +1390,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a8424533efc55e43b89d08ecd9443c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eyeLid: {fileID: 947100756}
+  eyeFlower: {fileID: 1674408531}
+  eyeTarget: {fileID: 1424152567}
+  wholeEye: {fileID: 0}
+  nextLevel: WaterSeed
+  puzzleSolved:
+    m_PersistentCalls:
+      m_Calls: []
+  startTransitionTime: 3
 --- !u!4 &1942228317
 Transform:
   m_ObjectHideFlags: 0
