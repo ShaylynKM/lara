@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: Sean_Example
+  m_EditorClassIdentifier: 
+  links:
+  - guid: e70f55a3-234f-42e1-8e9a-ec93672d190f
+    targetGuid: 3e4776c6-7903-44d9-ba13-f01c51ae4d2e
+    portId: 0
+  - guid: 3e4776c6-7903-44d9-ba13-f01c51ae4d2e
+    targetGuid: d7d1e823-aa16-42e1-82c8-a0e404aaa68c
+    portId: 1
+  - guid: d7d1e823-aa16-42e1-82c8-a0e404aaa68c
+    targetGuid: 6111fd29-dde5-43df-a6c3-42bb3ee8fe09
+    portId: 2
+  nodes:
+  - guid: e70f55a3-234f-42e1-8e9a-ec93672d190f
+    characterSpr: {fileID: 21300000, guid: d0c7c8e72b5fcf84e9478a13bd449ae6, type: 3}
+    characterName: Robot Butler
+    dialogueText: I am a robot butler. I came here to clean your house and consume
+      all mechanical oils.
+    backgroundSpr: {fileID: 21300000, guid: d470d7fc7d8853c4eb47dc66bf40eab2, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -54
+      y: -61
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 6724f4bff9907e344ba9b78368a7d4ee, type: 3}
+  - guid: 6111fd29-dde5-43df-a6c3-42bb3ee8fe09
+    characterSpr: {fileID: 21300000, guid: 4087b98cd1955334a8fda05466d798b7, type: 3}
+    characterName: Roboco
+    dialogueText: What are you talking a boot
+    backgroundSpr: {fileID: 21300000, guid: 00926a6a5a96fb1419a4910ef089c6bd, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2373
+      y: 59
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3e4776c6-7903-44d9-ba13-f01c51ae4d2e
+    characterSpr: {fileID: 21300000, guid: 8644bf9f86247e047968dace3236865a, type: 3}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: d470d7fc7d8853c4eb47dc66bf40eab2, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 676
+      y: -50
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d7d1e823-aa16-42e1-82c8-a0e404aaa68c
+    characterSpr: {fileID: 21300000, guid: c89bac1f202d956429f885f785607bc1, type: 3}
+    characterName: PErson's name
+    dialogueText: This is an example to test
+    backgroundSpr: {fileID: 21300000, guid: d470d7fc7d8853c4eb47dc66bf40eab2, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1584
+      y: 37
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
