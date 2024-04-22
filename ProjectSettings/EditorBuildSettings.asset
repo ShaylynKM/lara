@@ -26,7 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/VNCreator/_Demo/Scenes/Sample.unity
     guid: 0c2c9c49b4a69514d8a6842e347d27fb
-  - enabled: 1
+  - enabled: 0
     path: Assets/VNCreator/_Demo/Scenes/CansuPlayScene.unity
     guid: 74e9473bb6122d64993cd065e80b81d0
   - enabled: 1
@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/VNCreator/_Demo/Scenes/PlayScene2.unity
     guid: 8d66d048c6b5bd045a648e731464ebcc
+  - enabled: 1
+    path: Assets/VNCreator/_Demo/Scenes/SeanExampleScene.unity
+    guid: 45057b3fdf7ff964aacbb7b1377a2134
   m_configObjects: {}
