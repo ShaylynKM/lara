@@ -5,58 +5,64 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/CutVines.unity
+  - enabled: 0
+    path: Assets/Scenes/Unused/CutVines.unity
     guid: 8c967fe5503bd614b89d46f27c933a2b
-  - enabled: 1
-    path: Assets/Scenes/EyeBalls.unity
+  - enabled: 0
+    path: Assets/Scenes/Unused/EyeBalls.unity
     guid: 9ffbbd2ae532ac94c9d31e02fe2a31fd
-  - enabled: 1
-    path: Assets/Scenes/Stage.unity
+  - enabled: 0
+    path: Assets/Scenes/Unused/Stage.unity
     guid: 17e53eee9ae067443a2bd96d7cd1bcca
-  - enabled: 1
-    path: Assets/Scenes/ClockSpinning.unity
+  - enabled: 0
+    path: Assets/Scenes/Unused/ClockSpinning.unity
     guid: 47b3793daa3045b4cbb88b64541cecff
   - enabled: 1
     path: Assets/Scenes/Puzzles/Eye1.unity
     guid: 30814385b60ed4b43b9562265081e44b
-  - enabled: 1
-    path: Assets/Scenes/WaterSeed.unity
+  - enabled: 0
+    path: Assets/Scenes/Unused/WaterSeed.unity
     guid: 29d892532814acb4db9a0d70900cc4ab
-  - enabled: 1
-    path: Assets/VNCreator/_Demo/Scenes/Sample.unity
-    guid: 0c2c9c49b4a69514d8a6842e347d27fb
   - enabled: 0
     path: Assets/VNCreator/_Demo/Scenes/CansuPlayScene.unity
     guid: 74e9473bb6122d64993cd065e80b81d0
-  - enabled: 1
-    path: Assets/VNCreator/_Demo/Scenes/MainMenu.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/VNCreator/_Demo/Scenes/PlayScene2.unity
-    guid: 8d66d048c6b5bd045a648e731464ebcc
-  - enabled: 1
-    path: Assets/VNCreator/_Demo/Scenes/SeanExampleScene.unity
-    guid: 45057b3fdf7ff964aacbb7b1377a2134
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Puzzles/Eye2.unity
     guid: 00b001476f35eb846895fb74d0a867b0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Puzzles/Puzzle2.unity
     guid: 1ed17666b448d2f40910a5950b6357f4
   - enabled: 1
     path: Assets/Scenes/Puzzles/Puzzle1.unity
     guid: 0bbbca61d0322b5489cf6cd252bd5f16
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Puzzles/Puzzle3.unity
     guid: 30fa2f05f672024479d2882fc3b79885
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Puzzles/Puzzle4.unity
     guid: b9148b4bcac526e429d34b08b9ad530f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Puzzles/Eye3.unity
     guid: 7ed1f94c38010f546878fa159c76bc83
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Puzzles/Eye4.unity
     guid: 164166574feff684594e8a2aa2672a5d
+  - enabled: 0
+    path: Assets/Scenes/visual_novel/SeanExampleScene5.unity
+    guid: c966fafbdb3765a45ad210dee7b71027
+  - enabled: 1
+    path: Assets/Scenes/visual_novel/SeanExampleScene.unity
+    guid: 2fba09ef08066534991c61918dae1ce1
+  - enabled: 0
+    path: Assets/Scenes/visual_novel/SeanExampleScene2.unity
+    guid: 061c1b2e227ef934b93f459573303b4b
+  - enabled: 0
+    path: Assets/Scenes/visual_novel/SeanExampleScene3.unity
+    guid: cb3b870f4966fdd4da21f11e2a6638bd
+  - enabled: 0
+    path: Assets/Scenes/visual_novel/SeanExampleScene4.unity
+    guid: 92f9c6ce420464d4b900d1776f5db10d
+  - enabled: 1
+    path: Assets/Scenes/visual_novel/MainMenu.unity
+    guid: dbfd7a9da545fa44686724cec9148b7d
   m_configObjects: {}

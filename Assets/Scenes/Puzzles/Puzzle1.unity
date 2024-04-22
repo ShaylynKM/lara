@@ -3637,7 +3637,7 @@ MonoBehaviour:
   - {fileID: 169399477}
   - {fileID: 1399007636}
   - {fileID: 1795919733}
-  nextLevel: Eye2
+  nextLevel: SeanExampleScene2
 --- !u!320 &1365007469
 PlayableDirector:
   m_ObjectHideFlags: 0
