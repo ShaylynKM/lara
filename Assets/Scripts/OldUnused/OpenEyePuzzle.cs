@@ -77,7 +77,7 @@ public class OpenEyePuzzle : MonoBehaviour
 
     private void StartNewScene()
     {
-        SceneManager.LoadScene(nextLevel); //SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(nextLevel);
     }
 
  
