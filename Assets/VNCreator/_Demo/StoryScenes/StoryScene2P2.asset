@@ -1,0 +1,854 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: StoryScene2P2
+  m_EditorClassIdentifier: 
+  links:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    targetGuid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    portId: 0
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    targetGuid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    portId: 1
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    targetGuid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    portId: 2
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    targetGuid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    portId: 3
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    targetGuid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    portId: 4
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    targetGuid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    portId: 5
+  - guid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    targetGuid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    portId: 6
+  - guid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    targetGuid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    portId: 7
+  - guid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    targetGuid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    portId: 8
+  - guid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    targetGuid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    portId: 9
+  - guid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    targetGuid: 66827a76-4510-40d2-939f-37e8cefe2f58
+    portId: 10
+  - guid: 66827a76-4510-40d2-939f-37e8cefe2f58
+    targetGuid: 7fb6ea9b-7e7e-4ab6-90e9-651888717a91
+    portId: 11
+  - guid: 7fb6ea9b-7e7e-4ab6-90e9-651888717a91
+    targetGuid: 58376ca6-d087-44e8-96ee-914729263ff1
+    portId: 12
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    targetGuid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    portId: 13
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    targetGuid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    portId: 14
+  - guid: 58376ca6-d087-44e8-96ee-914729263ff1
+    targetGuid: b123fb24-e401-43a7-86cb-4e2b9f58c553
+    portId: 15
+  - guid: b123fb24-e401-43a7-86cb-4e2b9f58c553
+    targetGuid: 5b3cc026-3a10-4cc3-aeb6-81316438f6e3
+    portId: 16
+  - guid: 5b3cc026-3a10-4cc3-aeb6-81316438f6e3
+    targetGuid: 5f5e6abb-9b12-4f33-89db-2c937b5ba5df
+    portId: 17
+  - guid: 5f5e6abb-9b12-4f33-89db-2c937b5ba5df
+    targetGuid: 87a84c60-8118-409c-90e6-3a64ebf479e5
+    portId: 18
+  - guid: 87a84c60-8118-409c-90e6-3a64ebf479e5
+    targetGuid: 60818f26-150e-4398-82e8-434cd9d52e1f
+    portId: 19
+  - guid: 60818f26-150e-4398-82e8-434cd9d52e1f
+    targetGuid: 3256ecea-f145-411d-8725-781e1f202199
+    portId: 20
+  - guid: 3256ecea-f145-411d-8725-781e1f202199
+    targetGuid: 853482b4-7f14-49e6-95f2-97efe3d89ddf
+    portId: 21
+  - guid: 853482b4-7f14-49e6-95f2-97efe3d89ddf
+    targetGuid: 429d88af-2595-47aa-9719-2a422cae35e9
+    portId: 22
+  - guid: 429d88af-2595-47aa-9719-2a422cae35e9
+    targetGuid: 1aaa395a-f0d8-4c64-ba60-20d25a87895e
+    portId: 23
+  - guid: 1aaa395a-f0d8-4c64-ba60-20d25a87895e
+    targetGuid: e7e7bca3-bde8-4db7-ad15-a0b0635fb663
+    portId: 24
+  - guid: e7e7bca3-bde8-4db7-ad15-a0b0635fb663
+    targetGuid: 73ed4edb-5d40-4196-9b86-f7486c2c23f3
+    portId: 25
+  - guid: 73ed4edb-5d40-4196-9b86-f7486c2c23f3
+    targetGuid: 95f31869-5549-465e-95cd-ea5c24ce4e5a
+    portId: 26
+  - guid: 95f31869-5549-465e-95cd-ea5c24ce4e5a
+    targetGuid: c437ee33-1e23-47da-bb72-3ed8a8d704a2
+    portId: 27
+  - guid: c437ee33-1e23-47da-bb72-3ed8a8d704a2
+    targetGuid: 2ce23697-9e64-41f3-8d0c-cccaccfff605
+    portId: 28
+  - guid: 2ce23697-9e64-41f3-8d0c-cccaccfff605
+    targetGuid: c869a9db-99bb-4eff-bff8-609f718a1162
+    portId: 29
+  - guid: c869a9db-99bb-4eff-bff8-609f718a1162
+    targetGuid: 0a5615cb-8c7c-44ed-9078-b902e0e998ab
+    portId: 30
+  - guid: 0a5615cb-8c7c-44ed-9078-b902e0e998ab
+    targetGuid: 7e6f1966-3f15-48d2-9ac2-95369c4a5e9f
+    portId: 31
+  - guid: 7e6f1966-3f15-48d2-9ac2-95369c4a5e9f
+    targetGuid: 06b15498-8dc8-44de-841d-fd7246fbef9b
+    portId: 32
+  - guid: 06b15498-8dc8-44de-841d-fd7246fbef9b
+    targetGuid: cc350a1a-bb37-4118-984b-c0cd58bc1833
+    portId: 33
+  - guid: cc350a1a-bb37-4118-984b-c0cd58bc1833
+    targetGuid: 356d4fdf-51dd-4912-8ec0-41d40c86dd82
+    portId: 34
+  - guid: 356d4fdf-51dd-4912-8ec0-41d40c86dd82
+    targetGuid: e08eb95e-63c1-49c9-87c2-fc1385eec3c8
+    portId: 35
+  - guid: e08eb95e-63c1-49c9-87c2-fc1385eec3c8
+    targetGuid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    portId: 36
+  nodes:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "Y-yes, I think\u2026you\u2019re right. You remember who I am?
+      \r\n<i>Please say no.</i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "Of course! Everybody knows everybody, the illustration department
+      is so small! After all, we\u2019re going to be stuck with each other for the
+      next three years in the program. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "G-great! I didn\u2019t realize that our department was\u2026 so\u2026
+      small\u2026 "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "\u2026\u2026\r\nSo \u2026 are those your friends outside? Are
+      they\u2026. also classmates? \r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "Yup! Every single one of them. Practically half the class is here!
+      \r\nHey, maybe they wanna say hi!\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "Hey, guys! Remember this guy? He practically never speaks! \r\nUntil
+      now! Come see! "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>GOTTA DISTRACT HIM \r</i>\nDOO\u2013 youneedhelplookingforanything?!
+      \r\nAnything at all! I\u2019ll even discount it! \r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "Oh, yes! I\u2019m trying to look for flowers for some special
+      someones in my life. \r\nWould you be able to recommend some? It\u2019s for
+      a very important occasion. \r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "I need them to really scream \u201CI love you\u201D. Like those
+      musical greeting cards where you record your own message, but with flowers!
+      In fact, if you have flowers that scream, even better! \r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>Wait, why doesn\u2019t he just get one of those cards?</i>
+      \r\nFlowers that\u2026what? Nevermind\u2013as usual, roses are in stock\u2026
+      If you\u2019re boring. \r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: May I ask what your relationship is to this, um, special someone?
+      What emotions would you like to communicate to them? A friend, a relative,
+      a lover? An anniversary?
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 66827a76-4510-40d2-939f-37e8cefe2f58
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "Traditionally, flowers are used to deliver messages that can\u2019t
+      be spoken aloud. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7fb6ea9b-7e7e-4ab6-90e9-651888717a91
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: 'I guess I always just thought that flowers were just, like, the
+      thing to give people.  '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>In my class, and he\u2019s cute, too? Somebody wipe me off
+      the face of this earth.\r\nI bet his friends are laughing at me right this
+      second. \r</i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: "Laru, right? You\u2019re in the Illustration program? \r\nI think
+      we have Storytelling and Environments class together!\r"
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 58376ca6-d087-44e8-96ee-914729263ff1
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "People think they\u2019re just pretty, but flower-giving dates
+      back to antiquity; "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b123fb24-e401-43a7-86cb-4e2b9f58c553
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: 'Ancient Greeks made flower crowns as temple offerings, but started
+      giving them to Olympic victors to symbolize divine favour, in turn associating
+      flowers with celebration. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5b3cc026-3a10-4cc3-aeb6-81316438f6e3
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "I guess I\u2019d never thought that deeply about gifts, let alone
+      flowers. \r\nMaybe there\u2019s lots of deeper meanings in everyday interactions
+      that I miss\u2026 \r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5f5e6abb-9b12-4f33-89db-2c937b5ba5df
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: 'And those same traditions evolve into new forms over time! Later,
+      Roman lovers started to exchange flowers.  '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 779
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 87a84c60-8118-409c-90e6-3a64ebf479e5
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: 'A thousand years later in Victorian England, social manners were
+      so complicated that floral gift exchanges could become entire conversations. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 779
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 60818f26-150e-4398-82e8-434cd9d52e1f
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "Whole\u2026 conversations?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: 779
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3256ecea-f145-411d-8725-781e1f202199
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "Flowers were used to deliver messages that couldn\u2019t be spoken
+      aloud. Not only did the species matter, but they could mean yes or no depending
+      on the hand that delivered them. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: 779
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 853482b4-7f14-49e6-95f2-97efe3d89ddf
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "A suiter presenting an apple blossom for \u201Cpreference\u201D
+      and a rose for \u201Cromance\u201D could be rebuffed by responding with an
+      a yellow carnation for \u201Cdisdain\u201D...."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: 779
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 429d88af-2595-47aa-9719-2a422cae35e9
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "Or, delicate Baby\u2019s Breath blossoms for \u201Ceverlasting
+      love\u201D. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: 779
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e7e7bca3-bde8-4db7-ad15-a0b0635fb663
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "I-um-oh no, I\u2019ve been going on forever, I\u2019m so sorry,
+      usually stop before I start, I doubt anybody wants to hear my voice and I really
+      don\u2019t think anybody cares and\u2014"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 1146
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1aaa395a-f0d8-4c64-ba60-20d25a87895e
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "Amazing\u2026I want to hear you talk all day about this.  You\u2019re
+      a good teacher. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 1146
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 73ed4edb-5d40-4196-9b86-f7486c2c23f3
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: 'No. I liked it. Thank you. Please do it again sometime. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: 1146
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 95f31869-5549-465e-95cd-ea5c24ce4e5a
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "\u2026Nobody has ever thanked me for speaking before. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: 1146
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c437ee33-1e23-47da-bb72-3ed8a8d704a2
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "\u2026. ? "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: 1146
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2ce23697-9e64-41f3-8d0c-cccaccfff605
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "\u2026. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: 1146
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: c869a9db-99bb-4eff-bff8-609f718a1162
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "So \u2026.whose wife was serving divorce papers?  "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 1528
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 0a5615cb-8c7c-44ed-9078-b902e0e998ab
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: 'She even brought them here to the shop. It was quite the scene. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 1528
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7e6f1966-3f15-48d2-9ac2-95369c4a5e9f
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "I hope she\u2019s happy now, wherever she is. What would be something
+      that says\u2026I appreciate their patience, that I value them, and appreciate
+      that they are there when I\u2019m down? "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: 1528
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 06b15498-8dc8-44de-841d-fd7246fbef9b
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "Certainly. Let\u2019s do\u2026. Pink roses for affection, Hydrangea
+      for deep understanding, white orchids for sincerity, love, and respect. Did
+      you need that wrapped up ? "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: 1528
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: cc350a1a-bb37-4118-984b-c0cd58bc1833
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "Nah, they\u2019re the minimal types. No wrapping needed. Thanks
+      Laru, I\u2019ll see you in class! "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: 1528
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 356d4fdf-51dd-4912-8ec0-41d40c86dd82
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "I\u2026yeah, I\u2019ll see you. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: 1528
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "That\u2026wasn\u2019t so bad, I didn\u2019t even mind that people
+      were outside. Oh, the woody smell is gone. Wait, he said minimal types..? Recipients,
+      like, plural? "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 1891
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e08eb95e-63c1-49c9-87c2-fc1385eec3c8
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: '*door chimes again*'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 1891
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
