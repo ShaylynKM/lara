@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: StoryScene3P3
+  m_EditorClassIdentifier: 
+  links:
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    targetGuid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    portId: 0
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    targetGuid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    portId: 1
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    targetGuid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    portId: 2
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    targetGuid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    portId: 3
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    targetGuid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    portId: 4
+  - guid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    targetGuid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    portId: 5
+  - guid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    targetGuid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    portId: 6
+  - guid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    targetGuid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    portId: 7
+  - guid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    targetGuid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    portId: 8
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    targetGuid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    portId: 9
+  - guid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    targetGuid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    portId: 10
+  nodes:
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>That scent again, I can\u2019t put my finger on it\u2026 </i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: Laru!
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "H-hi Kut. Your work is amazing, you have an incredible eye for
+      detail. Confidence, too\u2026   "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "Thanks! I liked your work too, your intent is so clear and your
+      artistic interpretations are, so cool that I can\u2019t even understand them! "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1669
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "You should\u2019ve seen how Prof. Kaufmann\u2019s eyes lit up.
+      He was, like, a dude, wearing boxing gloves, on a skateboard, but REALLY happy.  "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2212
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "Thanks\u2026I think? Does that mean it was okay? <i>They weren\u2019t
+      that complicated\u2026 \r\nHelp me, I\u2019m beginning to like his idiot descriptions</i>\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "More than okay! It was good! So good! I bet your scores are great
+      in that class. \r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 65
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "We should hang out later! You gotta feed me whatever flowers you
+      eat to come up with this stuff. . Dude, I bet they\u2019re delicious, like
+      your ideas!"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 600
+      y: 65
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>Have I ever been addressed as \u201Cdude\u201D? Definitely
+      not like this. </i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1141
+      y: 65
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: 'I guess my grades are pretty okay, but I thought Kauffman was
+      just an easy grader. And, sure, why not. College is for new experiences.  '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1681
+      y: 65
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "I\u2019ll text you later! See you, an alligator, later, but soon!"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2224
+      y: 65
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "<i>Trying new things? I don\u2019t think we even decided what
+      to do\u2026 I\u2019ll just have to ask him!</i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 429
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>Have I ever hung out with anybody in my life, let alone a real
+      life alien? \r\nPretty cute though, for an extraterrestrial being. See you
+      later\u2026alligator. \r</i>\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: 65
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

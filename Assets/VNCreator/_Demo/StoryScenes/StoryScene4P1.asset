@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: StoryScene4P1
+  m_EditorClassIdentifier: 
+  links:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    targetGuid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    portId: 0
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    targetGuid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    portId: 1
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    targetGuid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    portId: 2
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    targetGuid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    portId: 3
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    targetGuid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    portId: 4
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    targetGuid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    portId: 5
+  - guid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    targetGuid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    portId: 6
+  - guid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    targetGuid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    portId: 7
+  - guid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    targetGuid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    portId: 8
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    targetGuid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    portId: 9
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    targetGuid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    portId: 10
+  - guid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    targetGuid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    portId: 11
+  nodes:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    characterSpr: {fileID: 0}
+    characterName: TIGER AUNTIE
+    dialogueText: "And your clothes,  so much pink! You\u2019re too skinny to be
+      a pig, but still you look like one! "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>I find that hard to believe, since Uncle just had another heart
+      attack. I wonder if it\u2019s true... \r\nHow does she still manage to give
+      me a headache in my dreams? Please just shut up \r</i>\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    characterSpr: {fileID: 0}
+    characterName: TIGER AUNTIE
+    dialogueText: "Laru, tch, why won\u2019t you say anything! Aiyah, when I was
+      your age, I didn\u2019t let anybody talk to me like that. You need to speak
+      up, act like a man! Why don\u2019t you have a girlfriend yet? "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>I\u2013what\u2013but\u2013she would scream the house down if
+      I talked back to her! \r\nWhat are these impossible standards?! \r</i>\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>And if I brought home a girlfriend she didn\u2019t like, she
+      would murder me in my sleep! \r\nNot the girlfriend! Me! \r</i>\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    characterSpr: {fileID: 0}
+    characterName: RABBIT AUNTIE
+    dialogueText: "Laru, don\u2019t listen to your auntie, nobody would have liked
+      Uncle anyways, even if he hadn\u2019t been born with his head and ass on backwards.
+      Come, eat, you always skip meals with us. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>Why did she marry him then\u2026? o serve me ...oh, that\u2019s\u2013it\u2019s
+      like a starchy Tai Mo Shan Mountain, the rice is piled so tall that it wobbles
+      when she moves the bowl\u2026\r</i>\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>\u2014our ancestors will curse me for wasting food. </i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    characterSpr: {fileID: 0}
+    characterName: DRAGON MOTHER
+    dialogueText: Rice farmers gave their blood, sweat and tears to harvest each
+      grain of rice!
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    characterSpr: {fileID: 0}
+    characterName: DRAGON MOTHER
+    dialogueText: "My son is so useless, I wish I had given birth to BBQ pork instead..
+      \r\nAt least I could eat that\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: <i>I hate this dream. </i>
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    characterSpr: {fileID: 0}
+    characterName: TIGER AUNTIE
+    dialogueText: "Laruu, why aren\u2019t you eating? I can see your bones,  like
+      your uncle when he decided that girls only like skinny pop stars boys!"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>This is why I skip meals, except the glares afterwards make
+      me dream about them anyways, which might be worse. But I am getting pretty
+      skinny\u2026 </i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 411
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

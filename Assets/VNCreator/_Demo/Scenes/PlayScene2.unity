@@ -1950,7 +1950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19bffdf8e809ebd439aaf9f444d2ea04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  story: {fileID: 11400000, guid: d3556a7a5f02b4b4d9b716e20506a59d, type: 2}
+  story: {fileID: 11400000, guid: fd3844bb951a82647b37e9e264cb9568, type: 2}
   characterNameTxt: {fileID: 2053690587}
   dialogueTxt: {fileID: 1236659805}
   characterImg: {fileID: 1548648291}

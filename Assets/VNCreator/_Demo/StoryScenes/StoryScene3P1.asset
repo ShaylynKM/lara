@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: StoryScene3P1
+  m_EditorClassIdentifier: 
+  links:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    targetGuid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    portId: 0
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    targetGuid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    portId: 1
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    targetGuid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    portId: 2
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    targetGuid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    portId: 3
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    targetGuid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    portId: 4
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    targetGuid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    portId: 5
+  nodes:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    characterSpr: {fileID: 0}
+    characterName: PROFESSOR KAUFMAN
+    dialogueText: "What exciting day is it today? Critique day! Let\u2019s spin the
+      wheel, who\u2019s going first\u2026. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>Maybe if I slide out of the chair onto the ground, and hopefully
+      through the floor, he\u2019ll forget I\u2019m here.  And everybody else. That
+      would be nice.</i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i> I really hate being first I hate being first hatebeingfirst
+      hate it hateithateithatehatehate\u2013</i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "<i>Oh, it\u2019s Kut, I think.\r\nIs Professor Kaufman on a skateboard?
+      Why is he wearing boxing gloves? \r</i>\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>I don\u2019t know why I\u2019m even surprised anymore, art
+      school is even weirder than people imagine.</i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    characterSpr: {fileID: 0}
+    characterName: PROFESSOR KAUFMAN
+    dialogueText: LARU!
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>Why is the clock ticking slower and slower\u2026 My legs betray
+      me, how am I at the front already? </i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 54
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

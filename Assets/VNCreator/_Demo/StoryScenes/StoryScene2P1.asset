@@ -1,0 +1,403 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: StoryScene2P1
+  m_EditorClassIdentifier: 
+  links:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    targetGuid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    portId: 0
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    targetGuid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    portId: 1
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    targetGuid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    portId: 2
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    targetGuid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    portId: 3
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    targetGuid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    portId: 4
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    targetGuid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    portId: 5
+  - guid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    targetGuid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    portId: 6
+  - guid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    targetGuid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    portId: 7
+  - guid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    targetGuid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    portId: 8
+  - guid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    targetGuid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    portId: 9
+  - guid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    targetGuid: 66827a76-4510-40d2-939f-37e8cefe2f58
+    portId: 10
+  - guid: 7fb6ea9b-7e7e-4ab6-90e9-651888717a91
+    targetGuid: 58376ca6-d087-44e8-96ee-914729263ff1
+    portId: 11
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    targetGuid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    portId: 12
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    targetGuid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    portId: 13
+  - guid: 58376ca6-d087-44e8-96ee-914729263ff1
+    targetGuid: b123fb24-e401-43a7-86cb-4e2b9f58c553
+    portId: 14
+  - guid: b123fb24-e401-43a7-86cb-4e2b9f58c553
+    targetGuid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    portId: 15
+  - guid: 66827a76-4510-40d2-939f-37e8cefe2f58
+    targetGuid: 7fb6ea9b-7e7e-4ab6-90e9-651888717a91
+    portId: 16
+  nodes:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "If I greet people like that, they\u2019ll just run away\u2026"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "Welcome welcome welcome to Hyacinth! Step right this way my good
+      folk, where you may view our esteemed collection of \u2026 of \u2026 gourmet
+      \u2026 fragrant \u2026 artisanal flowers! "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "Hand wrapped and hand picked, just the thing to get your wife
+      to shred those divorce papers. Maybe she\u2019ll even come back to you!"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "\u2026 I probably shouldn\u2019t say that to customers\u2026 "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "Wonder what it\u2019s like to actually have social skills\u2026.
+      Why is this so hard, what is wrong with me? "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: 'Maybe I should just scream all of my greetings, anything will
+      be better than people having to listen to my voice. '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "\u2026\u2026\u2026\u2026."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "HEEEEEEELLLLOOOOOOOOOOOOOOOOOOOO\u2013\t"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: '*door chime rings*'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "WELCOME TO HYACINTH?! \r\nDid I already unlock the door for opening?
+      \r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 66827a76-4510-40d2-939f-37e8cefe2f58
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "How long have all of those people been outside? \r\nThey\u2019re
+      staring\u2026 \u2026why is he looking at me like he knows me?  "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7fb6ea9b-7e7e-4ab6-90e9-651888717a91
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "Hold on, that outrageous green outfit seems familiar. What is
+      this smell? It\u2019s so sharp, kinda woody\u2026 like how the shop smells
+      over the holidays. Did we start stocking more branches? \r\nDid they hear me
+      talking? All of it? "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: WELCOME TO HYACINTH, WHAT CAN I DO FOR YOU!!!!?
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: ...
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 58376ca6-d087-44e8-96ee-914729263ff1
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: 'And a HEELLLOOOOOOOOO to you too! This is great! '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b123fb24-e401-43a7-86cb-4e2b9f58c553
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: "Nobody has ever been so excited to see me before!! \r\nYou\u2019re
+      in my class!  I\u2019m Kut!\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "H-hi?! I\u2019m nice to you\u2026no, um\u2026 meet\u2026 nice\u2026.
+      weather today\u2026 to meet you!! I\u2019m \u2014"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

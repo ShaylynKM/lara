@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: StoryScene3P2
+  m_EditorClassIdentifier: 
+  links:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    targetGuid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    portId: 0
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    targetGuid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    portId: 1
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    targetGuid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    portId: 2
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    targetGuid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    portId: 3
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    targetGuid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    portId: 4
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    targetGuid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    portId: 5
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    targetGuid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    portId: 6
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    targetGuid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    portId: 7
+  nodes:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: " Instead, I\u2019ve decided to draw my empire of rocks. 386  specimens,
+      all of their names, backstories, and interconnected family trees\u2013"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>Is this guy an alien? There\u2019s no other explanation. I
+      refuse to believe otherwise. Are people laughing at him?!? I don\u2019t get
+      it, isn\u2019t he well liked\u2026?? </i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>Though he goes overboard with detail, and somebody really should
+      teach him landscape-style layer focus division, it\u2019s like looking at a
+      bizarrely sharp photograph.</i> "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>He should just go into natural history work...it\u2019s rare
+      to see somebody with enough precision and drive for it. These could be incredible.
+      </i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "Based on your feedback, I decided against 150 photorealistic illustrations
+      of my golden retriever named Goldilocks\u2026"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    characterSpr: {fileID: 0}
+    characterName: 'PROFESSOR KAUFMAN '
+    dialogueText: 'Up next, KUT! '
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>But\u2026  his skill is undeniable, all beautifully drawn.</i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "\u2026Thank you everybody for your suggestions! I take them all
+      very seriously, and will only exhibit the 194 most important rocks. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>They laughed, but yet he\u2019s still smiling\u2026 I wish
+      I could do that.  I can\u2019t do anything right\u2026</i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}

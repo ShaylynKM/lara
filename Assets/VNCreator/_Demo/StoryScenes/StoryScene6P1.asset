@@ -1,0 +1,413 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: StoryScene6P1
+  m_EditorClassIdentifier: 
+  links:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    targetGuid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    portId: 0
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    targetGuid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    portId: 1
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    targetGuid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    portId: 2
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    targetGuid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    portId: 3
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    targetGuid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    portId: 4
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    targetGuid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    portId: 5
+  - guid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    targetGuid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    portId: 6
+  - guid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    targetGuid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    portId: 7
+  - guid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    targetGuid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    portId: 8
+  - guid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    targetGuid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    portId: 9
+  - guid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    targetGuid: 66827a76-4510-40d2-939f-37e8cefe2f58
+    portId: 10
+  - guid: 66827a76-4510-40d2-939f-37e8cefe2f58
+    targetGuid: 7fb6ea9b-7e7e-4ab6-90e9-651888717a91
+    portId: 11
+  - guid: 7fb6ea9b-7e7e-4ab6-90e9-651888717a91
+    targetGuid: 58376ca6-d087-44e8-96ee-914729263ff1
+    portId: 12
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    targetGuid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    portId: 13
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    targetGuid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    portId: 14
+  - guid: 58376ca6-d087-44e8-96ee-914729263ff1
+    targetGuid: b123fb24-e401-43a7-86cb-4e2b9f58c553
+    portId: 15
+  - guid: b123fb24-e401-43a7-86cb-4e2b9f58c553
+    targetGuid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    portId: 16
+  nodes:
+  - guid: d97f604f-efc0-4e7c-a96c-541c36e03099
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: 'Welcome to my sanctuary! Make yourself at home! '
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9fa7c703-dd75-4228-9f35-b69428a57150
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "Hey, a pine bonsai! I\u2019ve never seen one before\u2014or, 2\u20263\u20268
+      of them!? 12?!? Wait, how many of them are there? I can\u2019t even see the
+      walls\u2026 "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 591c70f8-cb6f-4a73-9033-eaf736c7afbb
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "My prized bonsai collection! Aren\u2019t they wonderful? \r\nMy
+      pride and joy, I would marry every one of them. Maybe I can! Is that allowed?
+      \r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 998277b7-a2aa-4d44-85f6-c1c4004929e5
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: 'Over here are my tribes of acorns. And this is my majestic empire
+      of rocks
+
+      Here is Sir Company, from being alone during Christmas week.'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 45cb2725-517d-4eef-bd3b-5cab3682014a
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "This limestone boy is Zoro, we met when I wandered off into the
+      forest when I was 6. My parents didn\u2019t notice I was gone for a whole 9
+      hours! Zoro kept me company the entire time."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2a1213ef-13e8-41dd-9567-b149416efe19
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "There are\u2026 thousands of dollars\u2026in pine bonsais\u2026
+      in this room\u2026 "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2c7ced0e-693b-48b3-a873-ad293ad46f97
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: This lovely lady is Unchi, Goldilocks pooped her out.
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 132082ec-a0c7-49e2-a061-b684fa466c69
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>H-he just\u2026.said that his dog\u2026and that\u2019s where\u2013I
+      am not touching that. I take it back, not an alien, that is too normal! </i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 24db8360-2b6d-40b8-8241-4a3cabece08c
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "I\u2019ll let you get acquainted with everybody! Feel free to
+      shake fronds, or pet anybody. I\u2019ll go make us tea."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 3dd57d3e-0de7-494f-9133-64d76164acbc
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "Did you say hi to everybody? Aren\u2019t they great?? They\u2019re
+      like family! Or what I think families are supposed to be like. "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 66827a76-4510-40d2-939f-37e8cefe2f58
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>But yet\u2026 he can be surprisingly serious. Too serious for
+      a prank?</i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7fb6ea9b-7e7e-4ab6-90e9-651888717a91
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "I don\u2019t know what families are, not really. My parents\u2026we
+      aren\u2019t really  a \u2018family\u2019, y\u2019know? "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1129
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d79fe456-91dd-4855-afd2-51f3c3f14435
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>Smells like..trees, still? Is this dude a tree? Woody and\u2026
+      oh, pine! That\u2019s what is it is!  And\u2026and\u2026wet\u2026rocks? What
+      is this, a forest??</i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 592
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ee2b3c36-4220-49ff-b879-41eb7f6364ca
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: <i>Is this... what having a friend is supposed to be like?</i>
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 206a9bd2-1fa3-46bb-be8f-f12efc0c0ca5
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: LARU
+    dialogueText: 'Come in, come in! '
+    backgroundSpr: {fileID: 0}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 63
+      y: -296
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 58376ca6-d087-44e8-96ee-914729263ff1
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>That dumb, happy face\u2026the bizarre texts, even the intense
+      collecting\u2026 are oddly\u2026 relaxing. I can talk around him, like I just
+      know that he won\u2019t ever judge me.</i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1670
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b123fb24-e401-43a7-86cb-4e2b9f58c553
+    characterSpr: {fileID: 0}
+    characterName: KUT
+    dialogueText: "Sorry, I don\u2019t think I\u2019ve ever told anybody that. Or
+      showed anybody my collections\u2013my friends, really. Is that okay? "
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2210
+      y: 416
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7f9e597f-5540-4f36-a8ac-f47956ed03ac
+    characterSpr: {fileID: 0}
+    characterName: LARU
+    dialogueText: "<i>I feel like I\u2019ve run a mental marathon. This alien, or
+      whatever he is, and me being here, there\u2019s no way this is real. Must be
+      an elaborate prank, and my reaction is being recorded. </i>"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2753
+      y: 60
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
