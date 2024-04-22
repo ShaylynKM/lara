@@ -14,6 +14,7 @@ public class SecateursCollider : MonoBehaviour
         changeVine = (ChangeVine)GameObject.FindObjectOfType(typeof(ChangeVine));
         snip = GetComponent<AudioSource>();
     }
+
     
     void Update()
     {

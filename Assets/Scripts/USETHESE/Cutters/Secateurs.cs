@@ -45,6 +45,11 @@ public class Secateurs : MonoBehaviour
         }
     }
 
+    public void MakeInvisible()
+    {
+        this.gameObject.SetActive(false); // Makes the secateurs invisible after solving the puzzle. Called by PathClear event on LadybugVinePuzzle.cs
+    }
+
     private void OnMouseDown()
     {
         spriteRenderer.sprite = closed;
