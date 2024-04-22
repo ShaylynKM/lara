@@ -28,35 +28,35 @@ MonoBehaviour:
   - guid: 963b005e-2314-4c32-ac7a-9d0780b4d865
     targetGuid: 71e6c68d-b897-4fe8-a245-b0863096b3e1
     portId: 4
-  - guid: 269ca404-f5db-4c82-b5a2-f0e7c7856e76
-    targetGuid: d5c1ecd0-5478-4d15-8173-9c3d4d8d9ee9
-    portId: 5
   - guid: d5c1ecd0-5478-4d15-8173-9c3d4d8d9ee9
     targetGuid: 9d7a967d-db91-4862-8c9c-7b1c7c568079
-    portId: 6
+    portId: 5
   - guid: cfe25e6b-3c07-4716-b1e2-e77f81ab3b2f
     targetGuid: 65c25ee5-019f-4b5d-b1cd-9bec767f6188
-    portId: 7
+    portId: 6
   - guid: 43443b6a-8fc6-4ee0-b9e4-3b5ab85f09fa
     targetGuid: cfe25e6b-3c07-4716-b1e2-e77f81ab3b2f
-    portId: 8
+    portId: 7
   - guid: 65c25ee5-019f-4b5d-b1cd-9bec767f6188
     targetGuid: 71a9708e-ecc5-45c1-8cf8-c8bbda33341d
-    portId: 9
+    portId: 8
   - guid: e9ce8f74-112d-4839-9c7f-0ac557acada9
     targetGuid: 118ba156-68ec-421c-a337-0e4dbe4e27d5
-    portId: 10
+    portId: 9
   - guid: 67d1b9d2-1101-4be9-a524-7a096bd168f5
     targetGuid: 44907569-f8b5-4457-9d64-c9c0aeac1273
-    portId: 11
+    portId: 10
   - guid: f2c571e2-ac48-4fac-a2a7-62c01c0d9f32
     targetGuid: 269ca404-f5db-4c82-b5a2-f0e7c7856e76
-    portId: 12
+    portId: 11
   - guid: 71e6c68d-b897-4fe8-a245-b0863096b3e1
     targetGuid: f2c571e2-ac48-4fac-a2a7-62c01c0d9f32
-    portId: 13
+    portId: 12
   - guid: 9d7a967d-db91-4862-8c9c-7b1c7c568079
     targetGuid: 8ea41aae-0e08-4035-9439-a9418aeb9a3a
+    portId: 13
+  - guid: 269ca404-f5db-4c82-b5a2-f0e7c7856e76
+    targetGuid: d5c1ecd0-5478-4d15-8173-9c3d4d8d9ee9
     portId: 14
   nodes:
   - guid: 71a9708e-ecc5-45c1-8cf8-c8bbda33341d
@@ -72,10 +72,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2019.3334
+      x: 2019
       y: 348
-      width: 501.33337
-      height: 306.66666
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: 118ba156-68ec-421c-a337-0e4dbe4e27d5
@@ -91,10 +91,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3127.3333
-      y: 359.3333
-      width: 501.3335
-      height: 306.66666
+      x: 3127
+      y: 359
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: c8b60af8-676c-43e2-b751-51613c793355
@@ -110,84 +110,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 3672
-      y: 362.66666
-      width: 501.3335
-      height: 306.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 44907569-f8b5-4457-9d64-c9c0aeac1273
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: "\u2026\u2026\u2026\u2026.\r\n"
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 3122
-      y: 730
-      width: 501.33325
-      height: 306.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 963b005e-2314-4c32-ac7a-9d0780b4d865
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: "HEEEEEEELLLLOOOOOOOOOOOOOOOOOOOO\u2013"
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 2584
-      y: 736.6667
-      width: 501.33325
-      height: 306.66663
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: 269ca404-f5db-4c82-b5a2-f0e7c7856e76
-    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
-    characterName: LARU
-    dialogueText: "Hold on, that outrageously  green outfit seems familiar. What
-      is this smell? It\u2019s so sharp, kinda woody\u2026 like how the shop smells
-      over the holidays. Did we start stocking more branches? \rDid they hear me
-      talking? All of it? \r\n"
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 882
-      y: 746
-      width: 501.33337
-      height: 306.6667
-    soundEffect: {fileID: 0}
-    backgroundMusic: {fileID: 0}
-  - guid: d5c1ecd0-5478-4d15-8173-9c3d4d8d9ee9
-    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
-    characterName: KUT
-    dialogueText: 'And a HEELLLOOOOOOOOO to you too! This is great! '
-    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
-    startNode: 0
-    endNode: 0
-    choices: 1
-    choiceOptions:
-    - 
-    nodePosition:
-      serializedVersion: 2
-      x: 302
-      y: 744
-      width: 501.3333
-      height: 306.6667
+      y: 363
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: cfe25e6b-3c07-4716-b1e2-e77f81ab3b2f
@@ -202,10 +127,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 880.6667
-      y: 350.66666
-      width: 501.3333
-      height: 306.6667
+      x: 881
+      y: 351
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: 43443b6a-8fc6-4ee0-b9e4-3b5ab85f09fa
@@ -221,9 +146,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 288
-      y: 352.66666
-      width: 501.3333
-      height: 306.6667
+      y: 353
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: 65c25ee5-019f-4b5d-b1cd-9bec767f6188
@@ -239,9 +164,9 @@ MonoBehaviour:
     nodePosition:
       serializedVersion: 2
       x: 1454
-      y: 352.66666
-      width: 501.33337
-      height: 306.6667
+      y: 353
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: e9ce8f74-112d-4839-9c7f-0ac557acada9
@@ -258,10 +183,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2576.6667
-      y: 356.66666
-      width: 501.33325
-      height: 306.6667
+      x: 2577
+      y: 357
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: 67d1b9d2-1101-4be9-a524-7a096bd168f5
@@ -279,10 +204,64 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 3676
-      y: 725.3334
-      width: 501.3335
-      height: 306.6667
+      x: 302
+      y: 822
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 44907569-f8b5-4457-9d64-c9c0aeac1273
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "\u2026\u2026\u2026\u2026.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 904
+      y: 822
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 963b005e-2314-4c32-ac7a-9d0780b4d865
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "HEEEEEEELLLLOOOOOOOOOOOOOOOOOOOO\u2013"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1454
+      y: 822
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 71e6c68d-b897-4fe8-a245-b0863096b3e1
+    characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
+    characterName: LARU
+    dialogueText: "WELCOME TO HYACINTH?! \rDid I already unlock the door for opening?\r"
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2019
+      y: 822
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: f2c571e2-ac48-4fac-a2a7-62c01c0d9f32
@@ -298,16 +277,19 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 1446.6666
-      y: 736
-      width: 501.33337
-      height: 306.6667
+      x: 2659
+      y: 822
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
-  - guid: 71e6c68d-b897-4fe8-a245-b0863096b3e1
+  - guid: 269ca404-f5db-4c82-b5a2-f0e7c7856e76
     characterSpr: {fileID: 21300000, guid: d55153781eaa84245bcf46e6402e4e0f, type: 3}
     characterName: LARU
-    dialogueText: "WELCOME TO HYACINTH?! \rDid I already unlock the door for opening?\r"
+    dialogueText: "Hold on, that outrageously  green outfit seems familiar. What
+      is this smell? It\u2019s so sharp, kinda woody\u2026 like how the shop smells
+      over the holidays. Did we start stocking more branches? \rDid they hear me
+      talking? All of it? \r\n"
     backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
     startNode: 0
     endNode: 0
@@ -316,10 +298,28 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 2028
-      y: 734
-      width: 501.33325
-      height: 306.6667
+      x: 3213
+      y: 822
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d5c1ecd0-5478-4d15-8173-9c3d4d8d9ee9
+    characterSpr: {fileID: 21300000, guid: 977285371d84c0e48971a13e76ddefcb, type: 3}
+    characterName: KUT
+    dialogueText: 'And a HEELLLOOOOOOOOO to you too! This is great! '
+    backgroundSpr: {fileID: 21300000, guid: 33e9349b053675349b72673901850745, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3774
+      y: 822
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: 9d7a967d-db91-4862-8c9c-7b1c7c568079
@@ -335,10 +335,10 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 304
-      y: 1102
-      width: 501.3333
-      height: 306.66663
+      x: 288
+      y: 1244
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}
   - guid: 8ea41aae-0e08-4035-9439-a9418aeb9a3a
@@ -354,9 +354,9 @@ MonoBehaviour:
     - 
     nodePosition:
       serializedVersion: 2
-      x: 866
-      y: 1101.3333
-      width: 501.33337
-      height: 306.66675
+      x: 881
+      y: 1244
+      width: 499
+      height: 305
     soundEffect: {fileID: 0}
     backgroundMusic: {fileID: 0}

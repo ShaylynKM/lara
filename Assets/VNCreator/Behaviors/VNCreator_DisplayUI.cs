@@ -8,6 +8,7 @@ namespace VNCreator
 {
     public class VNCreator_DisplayUI : DisplayBase
     {
+        private bool displayingText = false;
         [Header("Text")]
         public Text characterNameTxt;
         public Text dialogueTxt;
@@ -56,12 +57,16 @@ namespace VNCreator
 
         protected override void NextNode(int _choiceId)
         {
+
+            if (displayingText == true)
+                return;
+            displayingText = true;
             if (lastNode)
             {
                 endScreen.SetActive(true);
                 return;
             }
-
+            
             base.NextNode(_choiceId);
             StartCoroutine(DisplayCurrentNode());
         }
@@ -133,10 +138,15 @@ namespace VNCreator
                     yield return new WaitForSeconds(0.01f/ GameOptions.readSpeed);
                 }
             }
+
+            displayingText = false;
         }
 
         protected override void Previous()
         {
+            if (displayingText == true)
+                return;
+            displayingText = true;
             base.Previous();
             StartCoroutine(DisplayCurrentNode());
         }
