@@ -3637,6 +3637,7 @@ MonoBehaviour:
   - {fileID: 169399477}
   - {fileID: 1399007636}
   - {fileID: 1795919733}
+  nextLevel: Eye2
 --- !u!320 &1365007469
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -6783,7 +6784,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4353521595395847869, guid: 33af8689f52b40147b34342504b6a0cd, type: 3}
       propertyPath: m_Name
-      value: FinalCamPuzzle1
+      value: EndCamPuzzle1
       objectReference: {fileID: 0}
     - target: {fileID: 4353521595395847870, guid: 33af8689f52b40147b34342504b6a0cd, type: 3}
       propertyPath: m_Follow
@@ -6945,7 +6946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5892152168295929330, guid: be1fc3a861181e749a5eee992006f98c, type: 3}
       propertyPath: m_Name
-      value: InitialCamPuzzle1
+      value: StartCamPuzzle1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be1fc3a861181e749a5eee992006f98c, type: 3}

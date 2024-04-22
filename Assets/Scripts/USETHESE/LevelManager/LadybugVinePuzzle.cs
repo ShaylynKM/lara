@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 
 public class LadybugVinePuzzle : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class LadybugVinePuzzle : MonoBehaviour
     private SecateursCollider secateursCollider;
 
     private PlayableDirector playableDirector;
+
+    [SerializeField] private string nextLevel;
 
     private void Awake()
     {
@@ -33,12 +36,16 @@ public class LadybugVinePuzzle : MonoBehaviour
             areVinesCut &= !vineCut.gameObject.activeSelf;
         }
         if (areVinesCut)
-        {
-            playableDirector.Play();
+        {    
             pathClear.Invoke();
             Destroy(secateursCollider); // Destroy the secateurs collider when the puzzle is complete so the player can't keep cutting vines.
+            playableDirector.Play();
             Invoke("StartNewScene", (float)playableDirector.duration); // Loads the next scene after the playable director finishes playing the camera sequence
         }
+    }
+    private void StartNewScene()
+    {
+        SceneManager.LoadScene(nextLevel);
     }
 
     void Update()

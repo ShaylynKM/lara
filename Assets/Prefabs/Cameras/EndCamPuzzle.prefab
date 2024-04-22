@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4443759905711778741}
   - component: {fileID: 4443759905711778740}
   m_Layer: 0
-  m_Name: FinalCamPuzzle
+  m_Name: EndCamPuzzle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

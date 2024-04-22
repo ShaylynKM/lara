@@ -20,7 +20,6 @@ public class Secateurs : MonoBehaviour
 
     private void Awake()
     {
-        Cursor.visible = false;
         spriteRenderer = GetComponent<SpriteRenderer>();
 ;       spriteRenderer.sprite = open;
     }
